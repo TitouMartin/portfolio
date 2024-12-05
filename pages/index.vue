@@ -1,3 +1,3 @@
 <template>
-    <div>kakou kakou</div>
+    <div>kakou <span class="soap">kakou</span></div>    
 </template>

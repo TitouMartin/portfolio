@@ -1,0 +1,27 @@
+// ------------ FONTS ------------
+// HERO NEW
+@import url("https://use.typekit.net/fke7hpc.css");
+// SOAP
+@import url("https://use.typekit.net/fke7hpc.css");
+
+// ------------ COLORS ------------
+$blue: #2254D7;
+$red: #FF6643;
+$background: #FFFAF4;
+$light-purple: #E2D6FF;
+$light-green: #CBE776;
+$light-pink: #FFCFE6;
+$light-red: #FFE2E1;
+
+// ------------ SIZES ------------
+$base-unit : 8px;
+
+// ------------ BREAKPOINTS ------------
+$media-lt-sm: 'max-width: 599px';
+$media-lt-md: 'max-width: 959px';
+$media-lt-lg: 'max-width: 1279px';
+$media-lt-xl: 'max-width: 1919px';
+$media-gt-xs: 'min-width: 600px';
+$media-gt-sm: 'min-width: 960px';
+$media-gt-md: 'min-width: 1280px';
+$media-gt-lg: 'min-width: 1920px';
