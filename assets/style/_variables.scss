@@ -26,6 +26,7 @@ $light-purple: #E2D6FF;
 $light-green: #CBE776;
 $light-pink: #FFCFE6;
 $light-red: #FFE2E1;
+$dark-grey: #201D1D;
 
 // ------------ SIZES ------------
 $base-unit : 8px;
@@ -48,3 +49,4 @@ $media-gt-lg: 'min-width: 1920px';
 // ------------ STYLING ------------
 
 $border-radius: base-unit(2);
+$transition-short: all .2s ease-in-out;

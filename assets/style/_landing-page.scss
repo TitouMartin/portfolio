@@ -10,6 +10,7 @@ $project-block-height: base-unit(41);
 
     .ab-fold {
         margin-bottom: base-unit(10);
+        overflow: hidden;
 
         .ab-fold-title {
             margin: 0;
@@ -17,6 +18,8 @@ $project-block-height: base-unit(41);
             top: 50%;
             left: 50%;
             transform: translate(-50%, -60%);
+            user-select: none;
+            z-index: 1;
         
             .presentation {
                 width: fit-content;
@@ -32,6 +35,188 @@ $project-block-height: base-unit(41);
                 text-align: center;
                 line-height: 120px;
             }
+        }
+
+        .image-popup-container {
+            position: absolute;
+            border-radius: $border-radius;
+
+            &.hidden {
+                opacity: 0;
+            }
+
+            &:hover {
+                cursor: grab;
+            }
+
+            .image-popup-inner-container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+
+                .close {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background: $dark-grey;
+                    color: $background;
+                    width: fit-content;
+                    text-align: center;
+                    border-radius: 0 $border-radius 0 $border-radius;
+                    width: base-unit(5);
+                    height: base-unit(5);
+                    line-height: base-unit(5);
+                    transition: $transition-short;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                img {
+                    -webkit-user-drag: none; /* Prevent native drag in WebKit browsers */
+                    user-drag: none; /* Standard property, not widely supported yet */
+                    pointer-events: auto;
+                    object-fit: cover;
+                    height: auto;
+                    border: 6px solid $dark-grey;
+                    border-radius: $border-radius;
+                }
+    
+            }
+
+            &#juno {
+                z-index: 15;
+                top: 3%;
+                left: 6%;
+
+                img  {
+                    width: base-unit(42);
+                }
+            }
+
+            &#cog {
+                z-index: 16;
+                top: 15%;
+                left: 1%;
+
+                img  {
+                    width: base-unit(17);
+                }
+            }
+
+            &#map-sofya {
+                z-index: 10;
+                top: 1%;
+                left: 36%;
+
+                img  {
+                    width: base-unit(55);
+                }
+            }
+
+            
+            &#me {
+                z-index: 20;
+                top: 25%;
+                left: 25%;
+                
+                img  {
+                    width: base-unit(30);
+                }
+            }
+            
+            &#login-sofya {
+                z-index: 21;
+                top: 43%;
+                left: 9%;
+
+                img  {
+                    width: base-unit(45);
+                }
+            }
+
+            &#paula {
+                z-index: 19;
+                top: 69%;
+                left: 20%;
+
+                img  {
+                    width: base-unit(44);
+                }
+            }
+
+            &#miam {
+                z-index: 11;
+                top: 72%;
+                left: 48%;
+
+                img  {
+                    width: base-unit(15);
+                }
+            }
+
+            &#support-sofya {
+                z-index: 12;
+                top: 65%;
+                left: 54%;
+
+                img  {
+                    width: base-unit(37);
+                }
+            }
+
+            &#hat {
+                z-index: 13;
+                top: 76%;
+                left: 80%;
+
+                img  {
+                    width: base-unit(22);
+                }
+            }
+
+            &#ipad-auticiel {
+                z-index: 15;
+                top: 49%;
+                left: 67%;
+
+                img  {
+                    width: base-unit(60);
+                }
+            }
+
+            &#dancehaul {
+                z-index: 14;
+                top: 36%;
+                left: 62%;
+
+                img  {
+                    width: base-unit(24);
+                }
+            }
+
+            &#macbook-auticiel {
+                z-index: 16;
+                top: 10%;
+                left: 68%;
+
+                img  {
+                    width: base-unit(40);
+                }
+            }
+
+            &#pbasse {
+                z-index: 22;
+                top: 4%;
+                left: 89%;
+
+                img  {
+                    width: base-unit(22);
+                }
+            }
+
+
         }
     }
 
@@ -113,4 +298,8 @@ $project-block-height: base-unit(41);
 
         }
     }
+}
+
+.dragging {
+    cursor: grabbing;
 }
