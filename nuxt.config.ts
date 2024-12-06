@@ -7,12 +7,13 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/")
   },
-  css: ["~/assets/style/_main.scss",],
+  css: ["~/assets/style/_main.scss", "~/assets/style/_global-styling.scss", "~/assets/style/_landing-page.scss",],
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
           additionalData: '@use "~/assets/style/_variables.scss" as *;',
+          api: 'modern',
         },
       },
     },

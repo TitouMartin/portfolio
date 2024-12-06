@@ -4,6 +4,18 @@
 // SOAP
 @import url("https://use.typekit.net/fke7hpc.css");
 
+@mixin new-hero-eb {
+    font-family: "new-hero", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+@mixin soap {
+    font-family: "soap", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 // ------------ COLORS ------------
 $blue: #2254D7;
 $red: #FF6643;
@@ -15,6 +27,10 @@ $light-red: #FFE2E1;
 
 // ------------ SIZES ------------
 $base-unit : 8px;
+
+@function base-unit($n) {
+    @return ($n * $base-unit);
+}
 
 // ------------ BREAKPOINTS ------------
 $media-lt-sm: 'max-width: 599px';

@@ -1,0 +1,37 @@
+.landing-page {
+    padding-bottom: base-unit(20);
+
+    .ab-fold-title {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+    
+        .presentation {
+            width: fit-content;
+            margin: 0 auto $base-unit auto;
+            text-align: center;
+            font-size: 50px;
+            line-height: 58px;
+        }
+    
+        .product-designer {
+            width: fit-content;
+            margin: auto;
+            font-size: 152px;
+            text-align: center;
+            color: $red;
+            line-height: 128px;
+        }
+    }
+
+    .text-block {
+        font-size: 50px;
+        line-height: 58px;
+
+        &.about {
+            margin-bottom: base-unit(25);
+        }
+    }
+}

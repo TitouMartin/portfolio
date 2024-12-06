@@ -1,11 +1,25 @@
 body {
-    font-family: "new-hero", sans-serif;
-    font-weight: 800;
-    font-style: normal;
+    margin: 0;
+    background-color: $background;
+    color: $blue;
+    @include new-hero-eb;
 
     .soap {
-        font-family: "soap", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+        @include soap;
+    }
+}
+
+.ab-fold {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.text-block {
+    padding: 0 base-unit(8);
+
+    .outlined {
+        @include soap;
+        color: $red;
     }
 }
