@@ -16,6 +16,8 @@
     font-style: normal;
 }
 
+$text-block-big: 45px;
+
 // ------------ COLORS ------------
 $blue: #2254D7;
 $red: #FF6643;
@@ -41,3 +43,8 @@ $media-gt-xs: 'min-width: 600px';
 $media-gt-sm: 'min-width: 960px';
 $media-gt-md: 'min-width: 1280px';
 $media-gt-lg: 'min-width: 1920px';
+
+
+// ------------ STYLING ------------
+
+$border-radius: base-unit(2);

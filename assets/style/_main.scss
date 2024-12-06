@@ -23,3 +23,60 @@ body {
         color: $red;
     }
 }
+
+
+.contact-container {
+    margin-top: base-unit(30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    .contact-text {
+        font-size: $text-block-big;
+        text-align: center;
+        margin-bottom: base-unit(3);
+    }
+
+    .big-button {
+        background-color: $blue;
+        color: $red;
+        border-radius: $border-radius;
+        border: none;
+        padding: 0 base-unit(3);
+        margin-bottom: base-unit(15);
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .socials-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: base-unit(2);
+
+        .social {
+            padding: $base-unit base-unit(2);
+            border-radius: $border-radius;
+            font-size: $text-block-big;
+            color: $blue;
+
+            &.linkedin {
+                background-color: $light-green;
+            }
+
+            &.malt {
+                background-color: $light-purple;
+            }
+
+            &.instagram {
+                background-color: $light-pink;
+            }
+        }
+    }
+}
