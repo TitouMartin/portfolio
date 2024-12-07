@@ -76,7 +76,7 @@ $project-block-height: base-unit(41);
                 margin: 0 auto $base-unit auto;
                 text-align: center;
                 font-size: $text-block-big;
-                line-height: 50px;
+                line-height: 6vh;
 
                 @media ($lt-sm) {
                     font-size: $text-block-mobile;
@@ -88,7 +88,7 @@ $project-block-height: base-unit(41);
                 width: fit-content;
                 margin: auto;
                 text-align: center;
-                line-height: 120px;
+                line-height: 13vh;
             }
         }
 
@@ -282,7 +282,7 @@ $project-block-height: base-unit(41);
 
     .text-block {
         font-size: $text-block-big;
-        line-height: 50px;
+        line-height: 6vh;
 
         @media ($lt-sm) {
             font-size : 25px;
