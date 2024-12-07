@@ -17,7 +17,9 @@
 }
 
 $text-block-big: 5vh;
+$text-block-mobile: 2.5vh;
 $title-big: 14.1vh;
+$title-big-mobile: 7vh;
 
 // ------------ COLORS ------------
 $blue: #2254D7;
@@ -37,14 +39,14 @@ $base-unit : 8px;
 }
 
 // ------------ BREAKPOINTS ------------
-$media-lt-sm: 'max-width: 599px';
-$media-lt-md: 'max-width: 959px';
-$media-lt-lg: 'max-width: 1279px';
-$media-lt-xl: 'max-width: 1919px';
-$media-gt-xs: 'min-width: 600px';
-$media-gt-sm: 'min-width: 960px';
-$media-gt-md: 'min-width: 1280px';
-$media-gt-lg: 'min-width: 1920px';
+$lt-sm: 'max-width: 599px';
+$lt-md: 'max-width: 959px';
+$lt-lg: 'max-width: 1279px';
+$lt-xl: 'max-width: 1919px';
+$gt-xs: 'min-width: 600px';
+$gt-sm: 'min-width: 960px';
+$gt-md: 'min-width: 1280px';
+$gt-lg: 'min-width: 1920px';
 
 
 // ------------ STYLING ------------

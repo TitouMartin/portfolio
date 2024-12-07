@@ -110,7 +110,7 @@
             <!-- IMAGES END -->
 
 
-            <h1 class="ab-fold-title">
+            <h1 class="ab-fold-title desktop">
                 <div class="presentation">
                     <div>Hi ! I am</div>
                     <div>Titouan Martin,</div>
@@ -121,6 +121,16 @@
                     <div>Product</div>
                     <div class="designer">Designer</div>
                 </div>
+            </h1>
+
+            <h1 class="ab-fold-title mobile">
+                <div class="text-block">                    
+                    Hi ! I am Titouan Martin, a 30 years old Paris based
+                </div>
+                <div class="soap product-designer text1">prod</div>
+                <div class="soap product-designer text2">uct</div>
+                <div class="soap product-designer text3">desig</div>
+                <div class="soap product-designer text4">ner</div>
             </h1>
         </div>
         <div class="text-block">

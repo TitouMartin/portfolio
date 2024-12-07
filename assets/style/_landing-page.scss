@@ -3,30 +3,85 @@ $project-block-height: base-unit(41);
 .landing-page {
     padding-bottom: base-unit(32);
 
-    .big-text {
-        font-size: $title-big;
-        color: $red;
-    }
-
     .ab-fold {
-        margin-bottom: base-unit(10);
+        margin-bottom: base-unit(30);
         overflow: hidden;
+
+        @media ($lt-sm) {
+            margin-bottom: 0;
+        }
 
         .ab-fold-title {
             margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -60%);
             user-select: none;
             z-index: 1;
         
+
+            @media ($gt-sm) {
+                // for desktop devices
+    
+                    &.mobile {
+                        display: none;
+                    }
+    
+                    &.desktop {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -60%);
+                    }
+                }
+
+            @media ($lt-sm) {
+            // for mobile devices
+                
+                &.desktop {
+                    display: none;
+
+                }
+
+                &.mobile {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-55%);
+                    width: 100%;
+
+                    .text-block {
+                        margin-bottom: 1vh;
+                    }
+
+                    .product-designer {
+                        color: $red;
+                        font-size: 18vh;
+                        line-height: 13vh;
+
+                        &.text1 {
+                            margin-left: -6vw;
+                        }
+                        &.text2 {
+                            margin-left: 31vw;
+                        }
+                        &.text3 {
+                            margin-left: -6vw;
+                        }
+                        &.text4 {
+                            margin-left: -6vw;
+                        }
+                    }
+                }
+            }
+
             .presentation {
                 width: fit-content;
                 margin: 0 auto $base-unit auto;
                 text-align: center;
                 font-size: $text-block-big;
                 line-height: 50px;
+
+                @media ($lt-sm) {
+                    font-size: $text-block-mobile;
+                }
+
             }
         
             .product-designer {
@@ -40,6 +95,10 @@ $project-block-height: base-unit(41);
         .image-popup-container {
             position: absolute;
             border-radius: $border-radius;
+
+            @media ($lt-sm) {
+                display: none;
+            }
 
             &.hidden {
                 opacity: 0;
@@ -225,8 +284,18 @@ $project-block-height: base-unit(41);
         font-size: $text-block-big;
         line-height: 50px;
 
+        @media ($lt-sm) {
+            font-size : 25px;
+            line-height: normal;
+            font-size: $text-block-mobile;
+        }
+
         .about {
             margin-bottom: base-unit(30);
+
+            @media ($lt-sm) {
+                margin-bottom: base-unit(10);
+            }
         }
 
         .projects {
@@ -234,10 +303,16 @@ $project-block-height: base-unit(41);
         }
 
         .project-container {
+            margin-bottom: base-unit(15);
             display: flex;
             flex-direction: row;
             align-items: center;
-            margin-bottom: base-unit(15);
+
+            @media ($lt-sm) {
+                // for mobile devices
+                position: relative;
+                margin-bottom: base-unit(10);
+            }
 
             &.sofya {
                 justify-content: flex-end;
@@ -246,6 +321,10 @@ $project-block-height: base-unit(41);
             .project-image-container {
                 position: relative;
                 width: 60%;
+
+                @media ($lt-sm) {
+                    width: 75%;
+                }
 
                 .project-background {
                     position: absolute;
@@ -273,12 +352,23 @@ $project-block-height: base-unit(41);
                         background-image: url(../images/auticiel/amikeo-cover.png);
                         background-position: 30% center;
                         background-size: 65%;
+                        border-radius: $border-radius;
+
+                        @media ($lt-sm) {
+                            background-position: center 85%;
+                            background-size: 160%;
+                        }
                     }
 
                     &.sofya {
                         background-image: url(../images/auticiel/sofya-cover.png);
                         background-position: 50% center;
-                        background-size:50%;
+                        background-size: 50%;
+
+                        @media ($lt-sm) {
+                            background-position: 0% center;
+                            background-size: 135%;
+                        }
                     }
                 }
                 
@@ -286,13 +376,40 @@ $project-block-height: base-unit(41);
 
             .big-text {
                 line-height: 100%;
+                z-index: 2;
+
+                @media ($lt-sm) {
+                    position: absolute;
+                }
 
                 &.amikeo {
-                    transform: translate(-73%, 121%);
+
+                    @media ($gt-sm) { 
+                    // for desktop devices
+                        transform: translate(-73%, 121%);
+                    }
+
+                    @media ($lt-sm) {
+                    // for mobile devices
+                        bottom: -3vh;
+                        left: 24vw;
+                    }
                 }
 
                 &.sofya {
-                    transform: translate(42%, -50%);
+
+                    @media ($gt-sm) { 
+                        // for desktop devices
+                        transform: translate(42%, -50%);
+                    }
+    
+                    @media ($lt-sm) {
+                    // for mobile devices
+                        left: -1vw;
+                        top: 24vh;
+                        
+                    }
+
                 }
             }
 

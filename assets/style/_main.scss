@@ -2,10 +2,20 @@ body {
     margin: 0;
     background-color: $background;
     color: $blue;
+    // position:fixed;
     @include new-hero-eb;
 
     .soap {
         @include soap;
+    }
+}
+
+.big-text {
+    font-size: $title-big;
+    color: $red;
+
+    @media ($lt-sm) {
+        font-size: $title-big-mobile;
     }
 }
 
@@ -22,6 +32,10 @@ body {
         @include soap;
         color: $red;
     }
+
+    @media ($lt-sm) {
+        padding: 0 base-unit(3);
+    }
 }
 
 
@@ -31,6 +45,10 @@ body {
     flex-direction: column;
     align-items: center;
 
+    @media ($lt-sm) {
+        margin-top: base-unit(15);
+    }
+
     a {
         text-decoration: none;
     }
@@ -39,6 +57,10 @@ body {
         font-size: $text-block-big;
         text-align: center;
         margin-bottom: base-unit(3);
+
+        @media ($lt-sm) {
+            font-size: $text-block-mobile;
+        }
     }
 
     .big-button {
@@ -48,6 +70,10 @@ body {
         border: none;
         padding: 0 base-unit(3);
         margin-bottom: base-unit(7);
+
+        @media ($lt-sm) {
+            padding: base-unit(2) base-unit(3);
+        }
 
         &:hover {
             cursor: pointer;
@@ -60,11 +86,20 @@ body {
         align-items: center;
         gap: base-unit(2);
 
+        @media ($lt-sm) {
+            flex-direction: column;
+        }
+
         .social {
             padding: $base-unit base-unit(2);
             border-radius: $border-radius;
             font-size: $text-block-big;
             color: $blue;
+
+            @media ($lt-sm) {
+                padding: base-unit(2);
+                font-size: $text-block-mobile;
+            }
 
             &.linkedin {
                 background-color: $light-green;
