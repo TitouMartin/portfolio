@@ -4,7 +4,7 @@ $project-block-height: base-unit(41);
     padding-bottom: base-unit(32);
 
     .big-text {
-        font-size: 132px;
+        font-size: $title-big;
         color: $red;
     }
 
@@ -91,7 +91,7 @@ $project-block-height: base-unit(41);
                 left: 6%;
 
                 img  {
-                    width: base-unit(42);
+                    width: 18vw;
                 }
             }
 
@@ -101,7 +101,7 @@ $project-block-height: base-unit(41);
                 left: 1%;
 
                 img  {
-                    width: base-unit(17);
+                    width: 7vw;
                 }
             }
 
@@ -111,7 +111,7 @@ $project-block-height: base-unit(41);
                 left: 36%;
 
                 img  {
-                    width: base-unit(55);
+                    width: 23vw;
                 }
             }
 
@@ -122,7 +122,7 @@ $project-block-height: base-unit(41);
                 left: 25%;
                 
                 img  {
-                    width: base-unit(30);
+                    width: 12.5vw;
                 }
             }
             
@@ -132,7 +132,7 @@ $project-block-height: base-unit(41);
                 left: 9%;
 
                 img  {
-                    width: base-unit(45);
+                    width: 18.5vw;
                 }
             }
 
@@ -142,7 +142,7 @@ $project-block-height: base-unit(41);
                 left: 20%;
 
                 img  {
-                    width: base-unit(44);
+                    width: 17vw;
                 }
             }
 
@@ -152,7 +152,7 @@ $project-block-height: base-unit(41);
                 left: 48%;
 
                 img  {
-                    width: base-unit(15);
+                    width: 6.5vw;
                 }
             }
 
@@ -162,7 +162,7 @@ $project-block-height: base-unit(41);
                 left: 54%;
 
                 img  {
-                    width: base-unit(37);
+                    width: 15.5vw;
                 }
             }
 
@@ -172,7 +172,7 @@ $project-block-height: base-unit(41);
                 left: 80%;
 
                 img  {
-                    width: base-unit(22);
+                    width: 9vw;
                 }
             }
 
@@ -182,7 +182,7 @@ $project-block-height: base-unit(41);
                 left: 67%;
 
                 img  {
-                    width: base-unit(60);
+                    width: 25vw;
                 }
             }
 
@@ -192,7 +192,7 @@ $project-block-height: base-unit(41);
                 left: 62%;
 
                 img  {
-                    width: base-unit(24);
+                    width: 10vw;
                 }
             }
 
@@ -202,7 +202,7 @@ $project-block-height: base-unit(41);
                 left: 68%;
 
                 img  {
-                    width: base-unit(40);
+                    width: 16.5vw;
                 }
             }
 
@@ -212,7 +212,7 @@ $project-block-height: base-unit(41);
                 left: 89%;
 
                 img  {
-                    width: base-unit(22);
+                    width: 9.5vw;
                 }
             }
 
