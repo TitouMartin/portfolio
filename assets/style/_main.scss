@@ -2,12 +2,17 @@ body {
     margin: 0;
     background-color: $background;
     color: $blue;
+    font-size: $text-block;
     // position:fixed;
     @include new-hero-eb;
 
     .soap {
         @include soap;
     }
+}
+
+a {
+    text-decoration: none;
 }
 
 .big-text {
@@ -33,6 +38,13 @@ body {
         color: $red;
     }
 
+    .section-title {
+        @include soap;
+        color: $red;
+        margin-bottom: base-unit(2);
+        font-size: $section-title;
+    }
+
     @media ($lt-sm) {
         padding: 0 base-unit(3);
     }
@@ -47,10 +59,6 @@ body {
 
     @media ($lt-sm) {
         margin-top: base-unit(15);
-    }
-
-    a {
-        text-decoration: none;
     }
 
     .contact-text {
@@ -111,6 +119,98 @@ body {
 
             &.instagram {
                 background-color: $light-pink;
+            }
+        }
+    }
+}
+
+.project-container {
+    // margin-bottom: base-unit(15);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .project-image-container {
+        position: relative;
+        width: 60%;
+
+        .project-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: $project-block-height;
+
+            &.amikeo {
+                background-color: $light-purple;
+            }
+
+            &.sofya {
+                background-color: $light-green;
+            }
+        }
+
+        .project-image {
+            height: $project-block-height;
+            background-repeat: no-repeat;
+
+            &.amikeo {
+                background-image: url(../images/amikeo/amikeo-cover.png);
+                background-position: 30% center;
+                background-size: 65%;
+                border-radius: $border-radius;
+
+                @media ($lt-sm) {
+                    background-position: center 85%;
+                    background-size: 160%;
+                }
+            }
+
+            &.sofya {
+                background-image: url(../images/sofya/sofya-cover.png);
+                background-position: 50% center;
+                background-size: 50%;
+
+                @media ($lt-sm) {
+                    background-position: 0% center;
+                    background-size: 135%;
+                }
+            }
+        }
+    }
+
+    .big-text {
+        line-height: 100%;
+        z-index: 2;
+
+
+        &.amikeo {
+
+            @media ($gt-sm) { 
+            // for desktop devices
+                transform: translate(-73%, 121%);
+            }
+
+            @media ($lt-sm) {
+            // for mobile devices
+                bottom: -3vh;
+                left: 24vw;
+            }
+        }
+
+        &.sofya {
+
+            @media ($gt-sm) { 
+                // for desktop devices
+                transform: translate(42%, -50%);
+            }
+
+            @media ($lt-sm) {
+            // for mobile devices
+                left: -1vw;
+                top: 24vh;
+                
             }
         }
     }

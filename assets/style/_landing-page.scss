@@ -1,7 +1,5 @@
-$project-block-height: base-unit(41);
-
-.landing-page {
-    padding-bottom: base-unit(32);
+    .landing-page {
+        padding-bottom: base-unit(32);
 
     .ab-fold {
         margin-bottom: base-unit(30);
@@ -304,9 +302,6 @@ $project-block-height: base-unit(41);
 
         .project-container {
             margin-bottom: base-unit(15);
-            display: flex;
-            flex-direction: row;
-            align-items: center;
 
             @media ($lt-sm) {
                 // for mobile devices
@@ -319,97 +314,20 @@ $project-block-height: base-unit(41);
             }
 
             .project-image-container {
-                position: relative;
-                width: 60%;
 
                 @media ($lt-sm) {
                     width: 75%;
                 }
 
                 .project-background {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    z-index: -1;
-                    width: 100%;
-                    height: $project-block-height;
                     border-radius: $border-radius;
-
-                    &.amikeo {
-                        background-color: $light-purple;
-                    }
-
-                    &.sofya {
-                        background-color: $light-green;
-                    }
                 }
-                
-                .project-image {
-                    height: $project-block-height;
-                    background-repeat: no-repeat;
-
-                    &.amikeo {
-                        background-image: url(../images/auticiel/amikeo-cover.png);
-                        background-position: 30% center;
-                        background-size: 65%;
-                        border-radius: $border-radius;
-
-                        @media ($lt-sm) {
-                            background-position: center 85%;
-                            background-size: 160%;
-                        }
-                    }
-
-                    &.sofya {
-                        background-image: url(../images/auticiel/sofya-cover.png);
-                        background-position: 50% center;
-                        background-size: 50%;
-
-                        @media ($lt-sm) {
-                            background-position: 0% center;
-                            background-size: 135%;
-                        }
-                    }
-                }
-                
             }
 
             .big-text {
-                line-height: 100%;
-                z-index: 2;
 
                 @media ($lt-sm) {
                     position: absolute;
-                }
-
-                &.amikeo {
-
-                    @media ($gt-sm) { 
-                    // for desktop devices
-                        transform: translate(-73%, 121%);
-                    }
-
-                    @media ($lt-sm) {
-                    // for mobile devices
-                        bottom: -3vh;
-                        left: 24vw;
-                    }
-                }
-
-                &.sofya {
-
-                    @media ($gt-sm) { 
-                        // for desktop devices
-                        transform: translate(42%, -50%);
-                    }
-    
-                    @media ($lt-sm) {
-                    // for mobile devices
-                        left: -1vw;
-                        top: 24vh;
-                        
-                    }
-
                 }
             }
 

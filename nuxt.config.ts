@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/")
   },
-  css: ["~/assets/style/_main.scss", "~/assets/style/_global-styling.scss", "~/assets/style/_landing-page.scss",],
+  css: ["~/assets/style/_main.scss", "~/assets/style/_global-styling.scss", "~/assets/style/_landing-page.scss", "~/assets/style/_project-page.scss",],
   vite: {
     css: {
       preprocessorOptions: {

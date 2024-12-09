@@ -138,13 +138,15 @@
             <div class="about">I help teams to create and bring to life beautiful, intuitive and accessible digital products.</div>
             <div class="projects">Here are some projects I took a part in :</div>
             
-            <div class="project-container">
-                <div class="project-image-container">
-                    <div class="project-background amikeo"></div>
-                     <div class="project-image amikeo"></div>
+            <NuxtLink to="/amikeo">
+                <div class="project-container">
+                    <div class="project-image-container">
+                        <div class="project-background amikeo"></div>
+                         <div class="project-image amikeo"></div>
+                    </div>
+                    <div class="soap big-text amikeo">amikeo</div>
                 </div>
-                <div class="soap big-text amikeo">amikeo</div>
-            </div>
+            </NuxtLink>
 
             <div class="project-container sofya">
                 <div class="soap big-text sofya">sofya</div>
