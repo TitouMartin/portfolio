@@ -21,6 +21,7 @@ $text-block-big: 5vh;
 $text-block-mobile-big: 2.5vh;
 $text-block-mobile: 1rem;
 $section-title: 1.8rem;
+$section-title-mobile: 1.5rem;
 $title-big: 14.1vh;
 $title-big-mobile: 7vh;
 
@@ -44,12 +45,12 @@ $base-unit : 8px;
 }
 
 // ------------ BREAKPOINTS ------------
-$lt-sm: 'max-width: 599px';
+$mobile: 'max-width: 599px';
 $lt-md: 'max-width: 959px';
 $lt-lg: 'max-width: 1279px';
 $lt-xl: 'max-width: 1919px';
 $gt-xs: 'min-width: 600px';
-$gt-sm: 'min-width: 960px';
+$desktop: 'min-width: 960px';
 $gt-md: 'min-width: 1280px';
 $gt-lg: 'min-width: 1920px';
 

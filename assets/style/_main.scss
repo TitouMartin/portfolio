@@ -10,7 +10,7 @@ body {
         @include soap;
     }
 
-    @media ($lt-sm) {
+    @media ($mobile) {
         font-size: $text-block-mobile;
     }
 }
@@ -24,7 +24,7 @@ a {
     font-size: $title-big;
     color: $red;
 
-    @media ($lt-sm) {
+    @media ($mobile) {
         font-size: $title-big-mobile;
     }
 }
@@ -38,6 +38,10 @@ a {
 .text-block {
     padding: 0 base-unit(8);
 
+    @media ($mobile) {
+        padding: 0 base-unit(3);
+    }
+
     .outlined {
         @include soap;
         color: $red;
@@ -48,10 +52,10 @@ a {
         color: $red;
         margin-bottom: base-unit(2);
         font-size: $section-title;
-    }
 
-    @media ($lt-sm) {
-        padding: 0 base-unit(3);
+        @media ($mobile) {
+            font-size: $section-title-mobile;
+        }
     }
 }
 
@@ -62,7 +66,7 @@ a {
     flex-direction: column;
     align-items: center;
 
-    @media ($lt-sm) {
+    @media ($mobile) {
         margin-top: base-unit(15);
     }
 
@@ -71,7 +75,7 @@ a {
         text-align: center;
         margin-bottom: base-unit(3);
 
-        @media ($lt-sm) {
+        @media ($mobile) {
             font-size: $text-block-mobile-big;
         }
     }
@@ -84,7 +88,7 @@ a {
         padding: 0 base-unit(3);
         margin-bottom: base-unit(7);
 
-        @media ($lt-sm) {
+        @media ($mobile) {
             padding: base-unit(2) base-unit(3);
         }
 
@@ -99,7 +103,7 @@ a {
         align-items: center;
         gap: base-unit(2);
 
-        @media ($lt-sm) {
+        @media ($mobile) {
             flex-direction: column;
         }
 
@@ -109,7 +113,7 @@ a {
             font-size: $text-block-big;
             color: $blue;
 
-            @media ($lt-sm) {
+            @media ($mobile) {
                 padding: base-unit(2);
                 font-size: $text-block-mobile-big;
             }
@@ -166,7 +170,7 @@ a {
                 background-size: 65%;
                 border-radius: $border-radius;
 
-                @media ($lt-sm) {
+                @media ($mobile) {
                     background-position: center 85%;
                     background-size: 160%;
                 }
@@ -177,7 +181,7 @@ a {
                 background-position: 50% center;
                 background-size: 50%;
 
-                @media ($lt-sm) {
+                @media ($mobile) {
                     background-position: 0% center;
                     background-size: 135%;
                 }
@@ -192,12 +196,12 @@ a {
 
         &.amikeo {
 
-            @media ($gt-sm) { 
+            @media ($desktop) { 
             // for desktop devices
                 transform: translate(-73%, 121%);
             }
 
-            @media ($lt-sm) {
+            @media ($mobile) {
             // for mobile devices
                 bottom: -3vh;
                 left: 24vw;
@@ -206,12 +210,12 @@ a {
 
         &.sofya {
 
-            @media ($gt-sm) { 
+            @media ($desktop) { 
                 // for desktop devices
                 transform: translate(42%, -50%);
             }
 
-            @media ($lt-sm) {
+            @media ($mobile) {
             // for mobile devices
                 left: -1vw;
                 top: 24vh;

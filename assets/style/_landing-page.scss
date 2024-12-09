@@ -5,7 +5,7 @@
         margin-bottom: base-unit(30);
         overflow: hidden;
 
-        @media ($lt-sm) {
+        @media ($mobile) {
             margin-bottom: 0;
         }
 
@@ -15,7 +15,7 @@
             z-index: 1;
         
 
-            @media ($gt-sm) {
+            @media ($desktop) {
                 // for desktop devices
     
                     &.mobile {
@@ -30,7 +30,7 @@
                     }
                 }
 
-            @media ($lt-sm) {
+            @media ($mobile) {
             // for mobile devices
                 
                 &.desktop {
@@ -76,7 +76,7 @@
                 font-size: $text-block-big;
                 line-height: 6vh;
 
-                @media ($lt-sm) {
+                @media ($mobile) {
                     font-size: $text-block-mobile-big;
                 }
 
@@ -94,7 +94,7 @@
             position: absolute;
             border-radius: $border-radius;
 
-            @media ($lt-sm) {
+            @media ($mobile) {
                 display: none;
             }
 
@@ -280,7 +280,7 @@
         font-size: $text-block-big;
         line-height: 6vh;
 
-        @media ($lt-sm) {
+        @media ($mobile) {
             font-size : 25px;
             line-height: normal;
             font-size: $text-block-mobile-big;
@@ -289,7 +289,7 @@
         .about {
             margin-bottom: base-unit(30);
 
-            @media ($lt-sm) {
+            @media ($mobile) {
                 margin-bottom: base-unit(10);
             }
         }
@@ -301,7 +301,7 @@
         .project-container {
             margin-bottom: base-unit(15);
 
-            @media ($lt-sm) {
+            @media ($mobile) {
                 // for mobile devices
                 position: relative;
                 margin-bottom: base-unit(10);
@@ -313,7 +313,7 @@
 
             .project-image-container {
 
-                @media ($lt-sm) {
+                @media ($mobile) {
                     width: 75%;
                 }
 
@@ -324,7 +324,7 @@
 
             .big-text {
 
-                @media ($lt-sm) {
+                @media ($mobile) {
                     position: absolute;
                 }
             }

@@ -12,7 +12,7 @@
     .project-container {
         margin-bottom: base-unit(20);
 
-        @media ($lt-sm) {
+        @media ($mobile) {
             flex-direction: column;
             margin-bottom: base-unit(6);
 
@@ -25,7 +25,7 @@
 
         .project-image-container {
 
-            @media ($lt-sm) {
+            @media ($mobile) {
                 width: 100%;
             }
 
@@ -34,7 +34,7 @@
                     border-radius: 0 0 $border-radius 0;
 
 
-                    @media ($lt-sm) {
+                    @media ($mobile) {
                         border-radius: 0;
                     }
                 }
@@ -42,7 +42,7 @@
 
             .project-image {
                 &.amikeo {
-                    @media ($lt-sm) {
+                    @media ($mobile) {
                         background-position: center;
                         background-size: 90%;
                     }
@@ -55,7 +55,7 @@
         display: flex;
         flex-direction: column;
 
-        @media ($gt-sm) { 
+        @media ($desktop) { 
             // for desktop devices
             .order-text-1 {
                 order: 1;
@@ -72,7 +72,7 @@
             
         }
 
-        @media ($lt-sm) {
+        @media ($mobile) {
         // for mobile devices
             .order-text-1 {
                 order: 1;
@@ -97,13 +97,17 @@
             flex-direction: row;
             gap: base-unit(2);
 
-            @media ($lt-sm) {
+            @media ($mobile) {
                 gap: $base-unit;
             }
 
             .chip {
                 padding: $base-unit base-unit(2);
                 border-radius: base-unit(5);
+
+                @media ($mobile) {
+                    padding: base-unit(.5) $base-unit;
+                }
 
                 &.blue {
                     border: 3px solid $blue;
@@ -121,7 +125,7 @@
             display: flex;
             flex-direction: row;
 
-            @media ($lt-sm) {
+            @media ($mobile) {
                 flex-direction: column;
 
                 .block:first-child {
@@ -129,7 +133,7 @@
                 }
             }
 
-            @media ($gt-sm) {                
+            @media ($desktop) {                
                 .block {
                     width: calc(50% - ($split-gap/2));
     
@@ -141,7 +145,11 @@
             
         }
 
-        .case-study-title {
+        .case-study-title-desktop {
+
+            @media($mobile) {
+                display: none;
+            }
 
             .big-text {
                 line-height: 12vh;
@@ -158,31 +166,67 @@
                 justify-content: space-between;
             }
         }
+
+        .case-study-title-mobile {
+            
+            @media ($desktop) {
+                display: none;
+            }
+
+            .big-text {
+                line-height: 6vh;
+                
+                &.align-right {
+                    text-align: right;
+                }
+            }
+        }
     }
 
     .project-big-image-container {
         width: 100vw;
         height: 90vh;
 
+        @media ($mobile) {
+            height: 50vh;
+        }
+
         &.amikeo-10-iphones {
             background-color: $light-green;
+            margin-bottom: base-unit(6);
+
 
             img {
                 width: 100%;
                 background-position: center;
                 background-size: cover;
+
+                @media($mobile) {
+                    width: auto;
+                    height: 50vh;
+                    margin-left: -50%;
+                }
             }
         }
 
         &.amikeo-user-journey {
             background-color: $background-accent;
-            height: 30vh;
             height: 100%;
+
+            @media ($mobile) {
+                // height: 50vh;
+            }
 
             img {
                 width: 100%;
                 background-position: center;
                 background-size: cover;
+
+                @media ($mobile) {
+                    width: auto;
+                    height: 50vh;
+                    margin-left: -80vw;
+                }
             }
         }
 
@@ -190,6 +234,10 @@
             background-color: $light-red;
             padding: base-unit(20) 0 base-unit(11) 0;
             height: 100%;
+
+            @media ($mobile) {
+                padding: base-unit(10) 0;
+            }
 
             .image-row {
                 display: flex;
@@ -201,14 +249,28 @@
 
                 &.old-login {
                     margin-bottom: base-unit(20);
+
+                    @media($mobile) {
+                        margin-bottom: base-unit(10);
+                    }
+
                     img {
                         width: 20vw;
+
+                        @media ($mobile) {
+                            width: 43vw;
+                        }
                     }
     
                     .andthen {
                         position: absolute;
                         top: -10vh;
                         left: 10vw;
+
+                        @media ($mobile) {
+                            top: -1.5vh;
+                            font-size: $section-title-mobile;
+                        }
                     }
                 }
         
@@ -216,12 +278,22 @@
                     img {
                         width: 30vw;
                         margin-bottom: 3vh;
+
+                        @media ($mobile) {
+                            width: 43vw;
+                            margin-bottom: 1vh;
+                        }
                     }
     
                     .became {
                         position: absolute;
                         top: -10vh;
                         right: 15vw;
+
+                        @media ($mobile) {
+                            top: -2.2vh;
+                            font-size: $section-title-mobile;
+                        }
                     }
                 }
             }
@@ -234,8 +306,16 @@
         flex-direction: row;
         margin-bottom: base-unit(11);
 
+        @media ($mobile) {
+            flex-direction: column;
+        }
+
         .img-1-container {
             width: 50vw;
+
+            @media ($mobile) {
+                width: 100vw;
+            }
 
             img {
                 width: 100%;
@@ -244,6 +324,9 @@
 
         .img-2-container {
             width: 50vw;
+            @media ($mobile) {
+                width: 100vw;
+            }
 
             img {
                 width: 100%;

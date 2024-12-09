@@ -10,7 +10,7 @@
         </div>
 
 
-        <div class="amikeo-el-order">
+        <div class="responsive-el-order">
             <div class="text-block project-page-small-margin order-text-1">
                 <div class="chips-container project-page-small-margin">
                     <div class="chip blue">Product Manager</div>
@@ -63,7 +63,7 @@
         </div>
 
         <div class="text-block project-page-big-margin">
-            <div class="case-study-title project-page-big-margin">
+            <div class="case-study-title-desktop project-page-big-margin">
                 <div class="big-text">Onboarding</div>
                 <div class="second-line">
                     <div class="chips-container">
@@ -72,6 +72,17 @@
                         <div class="chip blue">User testing</div>
                     </div>
                     <div class="big-text">improvment</div>
+                </div>
+            </div>
+
+            <div class="case-study-title-mobile project-page-big-margin">
+                <div class="big-text">Onboar</div>
+                <div class="align-right big-text">ding</div>
+                <div class="section-title">improvment</div>
+                <div class="chips-container">
+                    <div class="chip blue">Benchmark</div>
+                    <div class="chip blue">User-journey mapping</div>
+                    <div class="chip blue">User testing</div>
                 </div>
             </div>
 
