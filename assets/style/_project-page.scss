@@ -1,5 +1,13 @@
 .project-page {
     padding-bottom: base-unit(32);
+
+    .project-page-big-margin {
+        margin-bottom: base-unit(11);
+    }
+
+    .project-page-small-margin {
+        margin-bottom: base-unit(6);
+    }
     
     .project-container {
         margin-bottom: base-unit(20);
@@ -20,7 +28,6 @@
             flex-wrap: wrap;
             flex-direction: row;
             gap: base-unit(2);
-            margin-bottom: base-unit(6);
 
             .chip {
                 padding: $base-unit base-unit(2);
@@ -41,10 +48,6 @@
         .split {
             display: flex;
             flex-direction: row;
-
-            &.intro {
-                margin-bottom: base-unit(6);
-            }
             
             .block {
                 width: calc(50% - ($split-gap/2));
@@ -55,15 +58,30 @@
             }
         }
 
-        &.text-block-big-margin {
-            margin-bottom: base-unit(11);
+        .case-study-title {
+
+            .big-text {
+                line-height: 12vh;
+            }
+
+            .chips-container {
+                margin-bottom: 0;
+            }
+
+            .second-line {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
         }
     }
 
     .project-big-image-container {
         width: 100vw;
+        height: 90vh;
 
-        &.amikeo {
+        &.amikeo-10-iphones {
             background-color: $light-green;
 
             img {
@@ -72,11 +90,66 @@
                 background-size: cover;
             }
         }
+
+        &.amikeo-user-journey {
+            background-color: $background-accent;
+            height: 30vh;
+            height: 100%;
+
+            img {
+                width: 100%;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+
+        &.amikeo-login-revamp {
+            background-color: $light-red;
+            padding: base-unit(20) 0 base-unit(11) 0;
+            height: 100%;
+
+            .image-row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+
+                &.old-login {
+                    margin-bottom: base-unit(20);
+                    img {
+                        width: 20vw;
+                    }
+    
+                    .andthen {
+                        position: absolute;
+                        top: -10vh;
+                        left: 10vw;
+                    }
+                }
+        
+                &.new-login {
+                    img {
+                        width: 30vw;
+                        margin-bottom: 3vh;
+                    }
+    
+                    .became {
+                        position: absolute;
+                        top: -10vh;
+                        right: 15vw;
+                    }
+                }
+            }
+
+        }
     }
 
     .project-image-double {
         display: flex;
         flex-direction: row;
+        margin-bottom: base-unit(11);
 
         .img-1-container {
             width: 50vw;

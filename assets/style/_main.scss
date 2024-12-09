@@ -16,6 +16,7 @@ a {
 }
 
 .big-text {
+    @include soap;
     font-size: $title-big;
     color: $red;
 

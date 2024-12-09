@@ -117,7 +117,7 @@
                     <div>a 30 years old</div>
                     <div>Paris based</div>
                 </div>
-                <div class="product-designer big-text soap">
+                <div class="product-designer big-text">
                     <div>Product</div>
                     <div class="designer">Designer</div>
                 </div>
@@ -144,12 +144,12 @@
                         <div class="project-background amikeo"></div>
                          <div class="project-image amikeo"></div>
                     </div>
-                    <div class="soap big-text amikeo">amikeo</div>
+                    <div class="big-text amikeo">amikeo</div>
                 </div>
             </NuxtLink>
 
             <div class="project-container sofya">
-                <div class="soap big-text sofya">sofya</div>
+                <div class="big-text sofya">sofya</div>
                 <div class="project-image-container">
                     <div class="project-background sofya"></div>
                      <div class="project-image sofya"></div>
