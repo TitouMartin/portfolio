@@ -1,4 +1,4 @@
-    .landing-page {
+.landing-page {
         padding-bottom: base-unit(32);
 
     .ab-fold {
@@ -77,7 +77,7 @@
                 line-height: 6vh;
 
                 @media ($lt-sm) {
-                    font-size: $text-block-mobile;
+                    font-size: $text-block-mobile-big;
                 }
 
             }
@@ -131,8 +131,6 @@
                 }
 
                 img {
-                    -webkit-user-drag: none; /* Prevent native drag in WebKit browsers */
-                    user-drag: none; /* Standard property, not widely supported yet */
                     pointer-events: auto;
                     object-fit: cover;
                     height: auto;
@@ -285,7 +283,7 @@
         @media ($lt-sm) {
             font-size : 25px;
             line-height: normal;
-            font-size: $text-block-mobile;
+            font-size: $text-block-mobile-big;
         }
 
         .about {

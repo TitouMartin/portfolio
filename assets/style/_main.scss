@@ -9,6 +9,10 @@ body {
     .soap {
         @include soap;
     }
+
+    @media ($lt-sm) {
+        font-size: $text-block-mobile;
+    }
 }
 
 a {
@@ -68,7 +72,7 @@ a {
         margin-bottom: base-unit(3);
 
         @media ($lt-sm) {
-            font-size: $text-block-mobile;
+            font-size: $text-block-mobile-big;
         }
     }
 
@@ -107,7 +111,7 @@ a {
 
             @media ($lt-sm) {
                 padding: base-unit(2);
-                font-size: $text-block-mobile;
+                font-size: $text-block-mobile-big;
             }
 
             &.linkedin {

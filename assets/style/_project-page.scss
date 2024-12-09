@@ -12,11 +12,79 @@
     .project-container {
         margin-bottom: base-unit(20);
 
+        @media ($lt-sm) {
+            flex-direction: column;
+            margin-bottom: base-unit(6);
+
+            .big-text.amikeo {
+                margin-top: -3vh;
+                padding-left: base-unit(2);
+                width: 100%;
+            }
+        }
+
         .project-image-container {
+
+            @media ($lt-sm) {
+                width: 100%;
+            }
+
             .project-background {
                 &.amikeo {
                     border-radius: 0 0 $border-radius 0;
+
+
+                    @media ($lt-sm) {
+                        border-radius: 0;
+                    }
                 }
+            }
+
+            .project-image {
+                &.amikeo {
+                    @media ($lt-sm) {
+                        background-position: center;
+                        background-size: 90%;
+                    }
+                }
+            }
+        }
+    }
+
+    .responsive-el-order {
+        display: flex;
+        flex-direction: column;
+
+        @media ($gt-sm) { 
+            // for desktop devices
+            .order-text-1 {
+                order: 1;
+            }
+            .order-text-2 {
+                order: 2;
+            }
+            .order-img-1 {
+                order: 3;
+            }
+            .order-img-2 {
+                order: 4;
+            }
+            
+        }
+
+        @media ($lt-sm) {
+        // for mobile devices
+            .order-text-1 {
+                order: 1;
+            }
+            .order-text-2 {
+                order: 3;
+            }
+            .order-img-1 {
+                order: 2;
+            }
+            .order-img-2 {
+                order: 4;
             }
         }
     }
@@ -28,6 +96,10 @@
             flex-wrap: wrap;
             flex-direction: row;
             gap: base-unit(2);
+
+            @media ($lt-sm) {
+                gap: $base-unit;
+            }
 
             .chip {
                 padding: $base-unit base-unit(2);
@@ -48,14 +120,25 @@
         .split {
             display: flex;
             flex-direction: row;
-            
-            .block {
-                width: calc(50% - ($split-gap/2));
 
-                &:first-child {
-                    margin-right: $split-gap;
+            @media ($lt-sm) {
+                flex-direction: column;
+
+                .block:first-child {
+                    margin-bottom: base-unit(3);
                 }
             }
+
+            @media ($gt-sm) {                
+                .block {
+                    width: calc(50% - ($split-gap/2));
+    
+                    &:first-child {
+                        margin-right: $split-gap;
+                    }
+                }
+            }
+            
         }
 
         .case-study-title {
