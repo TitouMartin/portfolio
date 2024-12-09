@@ -44,8 +44,21 @@
                 <div>The position of Product Manager has been vacant for more than two years, and in the absence of a designer, all of <span class="outlined">Auticiel</span>'s products have been developed and maintained by two developers. This has resulted in a lack of coherence among the various implemented features, as well as limited visibility on specific actions required to evolve the product over the coming years.</div>
                 <div>Given that <span class="outlined">Auticiel</span>'s product team is small (4 developers and one product owner/designer) compared to the number of products (12 applications and two cloud platforms), the team’s backlog is very heavy. Therefore, it was necessary for me to identify the most critical areas for improvement and propose simple designs that could be quickly integrated.</div>
             </div>
-
         </div>
+
+        <div class="project-big-image-container amikeo">
+            <img src="~/assets/images/amikeo/amikeo-10-iphones.png" />
+        </div>
+
+        <div class="project-image-double amikeo">
+            <div class="img-1-container">
+                <img src="~/assets/images/amikeo/amikeo-trial.png" />
+            </div>
+            <div class="img-2-container">
+                <img src="~/assets/images/amikeo/amikeo-success.png" />
+            </div>
+        </div>
+
 
     </div>
 </template>
