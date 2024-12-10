@@ -1,14 +1,16 @@
 $split-gap: base-unit(10);
+$project-page-big-margin: base-unit(11);
+$project-page-small-margin: base-unit(6);
 
 .project-page {
     padding-bottom: base-unit(32);
 
     .project-page-big-margin {
-        margin-bottom: base-unit(11);
+        margin-bottom: $project-page-big-margin;
     }
 
     .project-page-small-margin {
-        margin-bottom: base-unit(6);
+        margin-bottom: $project-page-small-margin;
     }
     
     .project-container {
@@ -24,7 +26,7 @@ $split-gap: base-unit(10);
 
         @media ($mobile) {
             flex-direction: column;
-            margin-bottom: base-unit(6);
+            margin-bottom: $project-page-small-margin;
         }
         
 
@@ -115,7 +117,7 @@ $split-gap: base-unit(10);
             }
             .order-text-2 {
                 order: 3;
-                margin-bottom: base-unit(6);
+                margin-bottom: $project-page-small-margin;
             }
             .order-img-1 {
                 order: 2;
@@ -189,7 +191,7 @@ $split-gap: base-unit(10);
                     &.old-sofya-img {
                         order: 2;
                         margin-bottom: 0;
-                        margin-top: base-unit(6);
+                        margin-top: $project-page-small-margin;
                     }
                 }
             }
@@ -247,7 +249,7 @@ $split-gap: base-unit(10);
             background-color: $light-green;
 
             @media ($mobile) {
-                margin-bottom: base-unit(6);
+                margin-bottom: $project-page-small-margin;
             }
 
 
@@ -288,7 +290,7 @@ $split-gap: base-unit(10);
 
         &.amikeo-login-revamp {
             background-color: $light-red;
-            padding: base-unit(20) 0 base-unit(11) 0;
+            padding: base-unit(20) 0 $project-page-big-margin 0;
             height: 100%;
 
             @media ($mobile) {
@@ -363,7 +365,7 @@ $split-gap: base-unit(10);
             background-color: $light-purple;
 
             @media ($mobile) {
-                margin-bottom: base-unit(6);
+                margin-bottom: $project-page-small-margin;
             }
 
             img {
@@ -498,7 +500,7 @@ $split-gap: base-unit(10);
 
     .text-w-image-container {
         position: relative;
-        padding: base-unit(6) 0;
+        padding:$project-page-small-margin 0;
 
         @media ($mobile) {
             padding: base-unit(2) 0;
@@ -560,7 +562,7 @@ $split-gap: base-unit(10);
         }
 
         &.sofya-admin {
-            padding: base-unit(6) 0 0 0;
+            padding: $project-page-small-margin 0 0 0;
 
             .background {
                 background-color: $light-red;
@@ -588,7 +590,7 @@ $split-gap: base-unit(10);
 
     .sofya-admin-orga {
         width: 65%;
-        padding: base-unit(6);
+        padding: $project-page-small-margin;
         border-radius: $border-radius;
         background-color: $background-accent;
 
