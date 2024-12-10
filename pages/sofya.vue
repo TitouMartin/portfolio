@@ -60,7 +60,7 @@
             </div>
         </div>
 
-        <div class="text-block project-page-small-margin">
+        <div class="text-block project-page-big-margin">
             <div class="case-study-title-desktop project-page-big-margin">
                 <div class="big-text">Clean but rich</div>
                 <div class="second-line">
@@ -92,10 +92,10 @@
             <div>To further simplify access to information, each column has its own filtering mechanism, tailored to the type of information it contains (e.g., text, date). These filters can be combined to achieve a precise and customized display of documents.</div>    
         </div>
 
-        <div class="sofya-filters-container project-page-small-margin">
+        <div class="text-w-image-container sofya-filters project-page-big-margin">
             <div class="background"></div>
-            <div class="sofya-filters-sub-container">
-                <img class="sofya-filters" src="~/assets/images/sofya/sofya-filters.png" />
+            <div class="text-w-image-sub-container">
+                <img src="~/assets/images/sofya/sofya-filters.png" />
                 <div>Since configuring these refined display settings can take time, we introduced what we call "views." A view represents a set of displayed/hidden columns, filters, and sorting preferences. Each new combination created by a user is treated as a new view, which they can save in just a few clicks if they think they might reuse it later.
                     To make this system easier to use and help users save time, five default views—developed during workshops with building professionals—are available to all users.</div>
             </div>
@@ -115,5 +115,107 @@
             </div>
         </div>
 
+        <div class="text-block project-page-small-margin">
+            <div class="case-study-title-desktop project-page-big-margin">
+                <div class="big-text">User Friendly Admin</div>
+                <div class="second-line">
+                    <div class="big-text">Pannels</div>
+                    <div class="chips-container">
+                        <div class="chip blue">Feedbacks</div>
+                        <div class="chip blue">Iterations</div>
+                        <div class="chip blue">User testing</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-study-title-mobile project-page-big-margin">
+                <div class="big-text">User</div>
+                <div class="align-right big-text">Friendly</div>
+                <div class="section-title">Admin Pannels</div>
+                <div class="chips-container">
+                    <div class="chip blue">Feedbacks</div>
+                    <div class="chip blue">Iterations</div>
+                    <div class="chip blue">User testing</div>
+                </div>
+            </div>
+
+            <div class="section-title">Problem</div>
+            <div>During the research phase, we observed that a significant number of users of competing solutions complained about the inability to finely configure their workspace without resorting to support services. As a result, we decided to make all project settings editable by the administrators of the workspace.</div>
+        </div>
+
+        <div class="text-w-image-container sofya-admin project-page-big-margin">
+            <div class="background"></div>
+            <div class="text-w-image-sub-container">
+                <div>
+                    <div>The project settings include a wide range of rules specific to the French construction sector, the management of information display, and granular access rights control for different sections of the application. This refined configuration also helps maintain a clean and uncluttered main navigation interface.</div>
+                    <div>It was necessary to design a user journey and configuration panels that would allow a novice administrator to make the right choices while clearly understanding all the available features.</div>
+                </div>
+                <img src="~/assets/images/sofya/sofya-admin.png" />
+            </div>
+        </div>
+
+        <div class="text-block project-page-small-margin">
+            <div class="split">
+                <div class="block">
+                    <img src="~/assets/images/sofya/sofya-old-ui.png" />
+                </div>
+                <div class="block">
+                    <div>
+                        <div class="section-title">User flow</div>
+                        <div>The original design of Sofya included a separation of the different “categories” of settings into five distinct groups. This fragmentation forced users to follow a complex navigation pattern and prevented them from having a comprehensive view of all the rules applied to a section of the application.
+                            Initial user research conducted on this subject quickly revealed that :</div>
+                        <ul>
+                            <li>The ability to combine multiple small groups of settings did not align with real-world expectations.</li>
+                            <li>Users tended to create a single group of settings for each folder they needed to manage.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-block project-page-big-margin">
+            <div class="align-right">
+                <div class="sofya-admin-orga old-admin project-page-small-margin">
+                    <div class="outlined">Old Administration section structuration</div>
+                    <img src="~/assets/images/sofya/sofya-old-admin-orga.png" />
+                </div>
+            </div>
+
+            <div class="sofya-admin-orga project-page-small-margin">
+                <div class="outlined">New structuration</div>
+                <img src="~/assets/images/sofya/sofya-new-admin-orga.png" />
+            </div>
+        </div>
+
+        <div class="text-block project-page-big-margin">
+            <div>First, I decided to group all the configuration features into a single section to simplify navigation.</div>
+            <div>Since this set of settings could be overwhelming for a user, I then designed an onboarding module to guide users through configuring the main features. This module also includes the option to duplicate rule sets from another project, saving expert users a significant amount of time. Additionally, default "Sofya" settings are offered to users, allowing them to set up a basic nomenclature structure in just a few clicks. These default settings are based on a thorough study of the most common settings across numerous real estate projects.</div>
+            <div>I also made extensive use of empty states, particularly working on them to leverage the available space for training users on the available features, as well as on the actions needed to complete or progress their project configuration.</div>
+        </div>
+
+        <div class="project-big-image-container sofya-admin-buttons">
+            <img src="~/assets/images/sofya/sofya-admin-buttons.png" />
+        </div>
+    
+        <div class="project-image-double sofya">
+            <div class="img-container img-5">
+                <img src="~/assets/images/sofya/sofya-admin-config.png" />
+            </div>
+            <div class="img-container img-6">
+                <img src="~/assets/images/sofya/sofya-admin-empty-state.png" />
+            </div>
+        </div>
+
+        <div class="light-pink-backrground">
+            <div class="text-block">
+                <div>Finally, the entire interface was enhanced with buttons that allow users to view help texts, detailing the exact impact of their modifications. I also created <a href="https://wiki.sofya.fr/" target="_blank" class="text-block-link">detailed online documentation</a> and included many links to this documentation within the administration interfaces.</div>
+                <div class="project-page-big-margin">To make navigation more accessible, I also added a visual representation module of the document validation workflow, using drag-and-drop functionality to allow users to intuitively and visually manage complex access rights tasks.</div>
+            </div>
+            <img src="~/assets/images/sofya/sofya-validation-circuit.png" />
+        </div>
+
+        <Contact />
+
     </div>
+
 </template>

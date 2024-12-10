@@ -57,6 +57,17 @@ a {
             font-size: $section-title-mobile;
         }
     }
+
+    .text-block-link {
+        text-decoration: underline;
+        transition: $transition-short;
+        color: $blue;
+
+        &:hover {
+            cursor: pointer;
+            color: $red;
+        }
+    }
 }
 
 

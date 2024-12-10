@@ -148,13 +148,15 @@
                 </div>
             </NuxtLink>
 
-            <div class="project-container sofya">
-                <div class="big-text sofya">sofya</div>
-                <div class="project-image-container">
-                    <div class="project-background sofya"></div>
-                     <div class="project-image sofya"></div>
+            <NuxtLink to="/sofya">
+                <div class="project-container sofya">
+                    <div class="big-text sofya">sofya</div>
+                    <div class="project-image-container">
+                        <div class="project-background sofya"></div>
+                         <div class="project-image sofya"></div>
+                    </div>
                 </div>
-            </div>
+            </NuxtLink>
         </div>
 
         <Contact />

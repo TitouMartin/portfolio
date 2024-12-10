@@ -1,3 +1,5 @@
+$split-gap: base-unit(10);
+
 .project-page {
     padding-bottom: base-unit(32);
 
@@ -132,7 +134,6 @@
             }
         }
 
-        $split-gap: base-unit(10);
         .split {
             display: flex;
             flex-direction: row;
@@ -145,9 +146,11 @@
                     margin-right: $split-gap;
                 }
 
-                .sofya-filters {
+                img {
                     width: 100%;
                 }
+
+
             }
 
             @media ($mobile) {
@@ -331,6 +334,18 @@
             }
 
         }
+
+        &.sofya-admin-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $light-blue;
+
+            img {
+                width: 80%;
+            }
+        }
     }
 
     .project-image-double {
@@ -374,9 +389,13 @@
                 justify-content: center;
                 padding: base-unit(5) 0;
                 width: 50vw;
-        
+
                 @media ($mobile) {
                     width: 100vw;
+                }
+
+                img {
+                    width: 50%;
                 }
 
                 &.img-1 {
@@ -395,14 +414,26 @@
                     background: $light-pink;
                 }
 
-                img {
-                    width: 50%;
+                &.img-5 {
+                    background: $light-purple;
+
+                    img {
+                        width: 80%;
+                    }
+                }
+
+                &.img-6 {
+                    background: $light-green;
+
+                    img {
+                        width: 80%;
+                    }
                 }
             }
         }
     }
 
-    .sofya-filters-container {
+    .text-w-image-container {
         position: relative;
         padding: base-unit(6) 0;
 
@@ -410,27 +441,95 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 65vw;
-            height: 100%;
-            background-color: $light-green;
             z-index: -1;
-            border-radius: 0 $border-radius $border-radius 0;
         }
 
-        .sofya-filters-sub-container {
+        .text-w-image-sub-container {
             display: flex;
             flex-direction: row;
             align-items: center;
             padding: 0 $text-block-padding;
 
             img {
-                margin-right: base-unit(5);
-                width: calc(50vw - (base-unit(5)/2));
+                width: calc(50vw - ($split-gap/2) - $text-block-padding);
             }
 
             div {
-                width: calc(50vw - (base-unit(5)/2));
+                width: calc(50vw - ($split-gap/2) - $text-block-padding);
             }
+        }
+
+        &.sofya-filters {
+    
+            .background {
+                width: 65vw;
+                height: 100%;
+                background-color: $light-green;
+                border-radius: 0 $border-radius $border-radius 0;
+            }
+    
+            .text-w-image-sub-container {
+    
+                img {
+                    margin-right: $split-gap;
+                }
+            }
+        }
+
+        &.sofya-admin {
+            padding: base-unit(6) 0 0 0;
+
+            .background {
+                background-color: $light-red;
+                width: 100%;
+                height: 100%;
+            }
+
+            .text-w-image-sub-container {
+                align-items: flex-start;
+
+                img {
+                    margin-left: $split-gap;
+                }
+            }
+        }
+    }
+
+    .sofya-admin-orga {
+        width: 65%;
+        padding: base-unit(6);
+        border-radius: $border-radius;
+        background-color: $background-accent;
+
+        &.old-admin {
+            float: right;
+        }
+
+        .outlined {
+            margin-bottom: base-unit(2);
+        }
+
+        img {
+            width: 80%;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .align-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .light-pink-backrground {
+        padding: base-unit(10) 0;
+        background-color: $light-pink;
+
+        img {
+            display: block;
+            width: 50%;
+            margin: auto;
         }
     }
 }
