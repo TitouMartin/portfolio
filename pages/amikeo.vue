@@ -53,10 +53,10 @@
             </div>
     
             <div class="project-image-double amikeo project-page-big-margin order-img-2">
-                <div class="img-1-container">
+                <div class="img-container img-1">
                     <img src="~/assets/images/amikeo/amikeo-trial.png" />
                 </div>
-                <div class="img-2-container">
+                <div class="img-container img-2">
                     <img src="~/assets/images/amikeo/amikeo-success.png" />
                 </div>
             </div>
@@ -66,12 +66,12 @@
             <div class="case-study-title-desktop project-page-big-margin">
                 <div class="big-text">Onboarding</div>
                 <div class="second-line">
+                    <div class="big-text">improvment</div>
                     <div class="chips-container">
                         <div class="chip blue">Benchmark</div>
                         <div class="chip blue">User-journey mapping</div>
                         <div class="chip blue">User testing</div>
                     </div>
-                    <div class="big-text">improvment</div>
                 </div>
             </div>
 
