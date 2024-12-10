@@ -1,4 +1,7 @@
 <template>
+
+    <Navbar />
+
     <div class="landing-page">
         <div class="ab-fold" @mousedown="initDrag($event)" @mousemove="drag($event)" @mouseup="endDrag()">
 

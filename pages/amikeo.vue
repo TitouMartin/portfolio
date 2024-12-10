@@ -1,4 +1,6 @@
 <template>
+    <Navbar />
+
     <div class="project-page">
 
         <div class="project-container">
@@ -75,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="case-study-title-mobile project-page-big-margin">
+            <div class="case-study-title-mobile project-page-small-margin">
                 <div class="big-text">Onboar</div>
                 <div class="align-right big-text">ding</div>
                 <div class="section-title">improvment</div>

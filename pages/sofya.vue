@@ -1,4 +1,7 @@
 <template>
+
+    <Navbar />
+
     <div class="project-page">
 
         <div class="project-container sofya">
@@ -73,7 +76,7 @@
                 </div>
             </div>
 
-            <div class="case-study-title-mobile project-page-big-margin">
+            <div class="case-study-title-mobile project-page-small-margin">
                 <div class="big-text">Clean</div>
                 <div class="align-right big-text">But Rich</div>
                 <div class="section-title">interface</div>
@@ -145,7 +148,7 @@
                 </div>
             </div>
 
-            <div class="case-study-title-mobile project-page-big-margin">
+            <div class="case-study-title-mobile project-page-small-margin">
                 <div class="big-text">User</div>
                 <div class="align-right big-text">Friendly</div>
                 <div class="section-title">Admin Pannels</div>

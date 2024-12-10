@@ -29,6 +29,24 @@ a {
     }
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: base-unit(3);
+    font-size: $section-title;
+    color: $red;
+    z-index: 1000;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media ($mobile) {
+        font-size: $section-title-mobile;
+    }
+}
+
 .ab-fold {
     height: 100vh;
     width: 100vw;
