@@ -224,3 +224,15 @@ a {
         }
     }
 }
+
+.display-screen-desktop {
+    @media ($screen-xs) {
+        display: none !important;
+    }
+}
+
+.display-screen-xs {
+    @media ($desktop) {
+        display: none !important;
+    }
+}

@@ -101,19 +101,36 @@
             </div>
         </div>
 
-        <div class="text-block project-page-big-margin">
-            <div>Subsequently, we noticed that within a team, only certain users who frequently used the electronic document management platform took the time to configure views. However, since all team members working on similar tasks have similar display customization needs, we added a sharing feature. This allows a user to share their views with their team members, eliminating the need for everyone to configure the same views individually.
-                This feature also enabled us to set up specific views for multiple teams at the start of a project and share them directly, ensuring a smoother onboarding experience with the application.</div>
+        <div class="responsive-el-order">
+
+            <div class="project-image-double sofya project-page-big-margin display-screen-xs">
+                <div class="img-container img-3">
+                    <img src="~/assets/images/sofya/sofya-view.png" />
+                </div>
+            </div>
+            
+            <div class="text-block project-page-big-margin">
+                <div>Subsequently, we noticed that within a team, only certain users who frequently used the electronic document management platform took the time to configure views. However, since all team members working on similar tasks have similar display customization needs, we added a sharing feature. This allows a user to share their views with their team members, eliminating the need for everyone to configure the same views individually.
+                    This feature also enabled us to set up specific views for multiple teams at the start of a project and share them directly, ensuring a smoother onboarding experience with the application.</div>
+            </div>
+    
+            <div class="project-image-double sofya project-page-big-margin display-screen-desktop">
+                <div class="img-container img-3">
+                    <img src="~/assets/images/sofya/sofya-view.png" />
+                </div>
+                <div class="img-container img-4">
+                    <img src="~/assets/images/sofya/sofya-save-view.png" />
+                </div>
+            </div>
+
+            <div class="project-image-double sofya project-page-big-margin display-screen-xs">
+                <div class="img-container img-4">
+                    <img src="~/assets/images/sofya/sofya-save-view.png" />
+                </div>
+            </div>
+
         </div>
 
-        <div class="project-image-double sofya project-page-big-margin">
-            <div class="img-container img-3">
-                <img src="~/assets/images/sofya/sofya-view.png" />
-            </div>
-            <div class="img-container img-4">
-                <img src="~/assets/images/sofya/sofya-save-view.png" />
-            </div>
-        </div>
 
         <div class="text-block project-page-small-margin">
             <div class="case-study-title-desktop project-page-big-margin">
@@ -156,7 +173,7 @@
 
         <div class="text-block project-page-small-margin">
             <div class="split">
-                <div class="block">
+                <div class="block old-sofya-img">
                     <img src="~/assets/images/sofya/sofya-old-ui.png" />
                 </div>
                 <div class="block">
@@ -194,14 +211,15 @@
         </div>
 
         <div class="project-big-image-container sofya-admin-buttons">
-            <img src="~/assets/images/sofya/sofya-admin-buttons.png" />
+            <img class="display-screen-desktop" src="~/assets/images/sofya/sofya-admin-buttons.png" />
+            <img class="display-screen-xs" src="~/assets/images/sofya/sofya-admin-buttons-mobile.png" />
         </div>
     
         <div class="project-image-double sofya">
             <div class="img-container img-5">
                 <img src="~/assets/images/sofya/sofya-admin-config.png" />
             </div>
-            <div class="img-container img-6">
+            <div class="img-container img-6 display-screen-desktop">
                 <img src="~/assets/images/sofya/sofya-admin-empty-state.png" />
             </div>
         </div>

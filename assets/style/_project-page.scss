@@ -173,8 +173,6 @@ $split-gap: base-unit(10);
                 img {
                     width: 100%;
                 }
-
-
             }
 
             @media ($mobile) {
@@ -186,6 +184,12 @@ $split-gap: base-unit(10);
                     &:first-child {
                         margin-right: 0;
                         margin-bottom: base-unit(3);
+                    }
+
+                    &.old-sofya-img {
+                        order: 2;
+                        margin-bottom: 0;
+                        margin-top: base-unit(6);
                     }
                 }
             }
@@ -379,8 +383,17 @@ $split-gap: base-unit(10);
             justify-content: center;
             background-color: $light-blue;
 
+            @media ($mobile) {
+                height: auto;
+                padding: base-unit(4) 0;
+            }
+
             img {
                 width: 80%;
+
+                &.display-screen-xs {
+                    width: 50%;
+                }
             }
         }
     }
@@ -392,6 +405,13 @@ $split-gap: base-unit(10);
         @media ($mobile) {
             flex-direction: column;
         }
+       
+        &.display-screen-desktop {
+            @media ($screen-xs) {
+                display: none;
+            }
+        }
+
 
         &.amikeo {
 
@@ -572,8 +592,8 @@ $split-gap: base-unit(10);
         border-radius: $border-radius;
         background-color: $background-accent;
 
-        &.old-admin {
-            float: right;
+        @media ($screen-xs) {
+            display: none;
         }
 
         .outlined {
@@ -597,10 +617,21 @@ $split-gap: base-unit(10);
         padding: base-unit(10) 0;
         background-color: $light-pink;
 
+        .project-page-big-margin {
+            @media ($mobile) {
+                margin-bottom: base-unit(4);
+            }
+        }
+
         img {
             display: block;
             width: 50%;
             margin: auto;
+
+            @media ($mobile) {
+                padding: $text-block-padding-mobile;
+                width: calc(100% - ($text-block-padding-mobile * 2));
+            }
         }
     }
 }
