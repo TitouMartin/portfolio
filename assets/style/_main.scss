@@ -55,6 +55,7 @@ a {
 
         @media ($mobile) {
             font-size: $section-title-mobile;
+            margin-bottom: $base-unit;
         }
     }
 
