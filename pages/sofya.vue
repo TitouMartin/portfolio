@@ -175,7 +175,7 @@
         </div>
 
         <div class="text-block project-page-small-margin">
-            <div class="split">
+            <div class="split align-center">
                 <div class="block old-sofya-img">
                     <img src="~/assets/images/sofya/sofya-old-ui.png" />
                 </div>

@@ -167,7 +167,10 @@ $project-page-small-margin: base-unit(6);
         .split {
             display: flex;
             flex-direction: row;
-            align-items: center;
+
+            &.align-center {
+                align-items: center;
+            }
 
             .block {
                 width: calc(50% - ($split-gap/2));
