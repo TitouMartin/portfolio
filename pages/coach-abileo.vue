@@ -1,7 +1,5 @@
 <template>
 
-    <Navbar />
-
     <div class="project-page">
 
         <div class="project-container">
