@@ -30,7 +30,7 @@
                         <div>The <span class="outlined">Coach Abileo</span> was created by <span class="outlined">Auticiel</span> to provide companies specialized in handicaped workers employment (ESATS) a tool for the workers and their management. This tool helps workers to be more autonomous and helps management in tracking workers progress and establishing a career plan. </div>
                     </div>
                     <div class="block">
-                        <div class="section-title">Roles</div>
+                        <div class="section-title">My Roles</div>
                         <div>
                             <ul>
                                 <li>Definition and tracking of objectives and key results for the product team</li>

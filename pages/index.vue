@@ -137,7 +137,7 @@
             </h1>
         </div>
         <div class="text-block">
-            <div>I am a 7 years experienced <span class="outlined">Product Designer</span> that also dabbles in <span class="outlined">Product Management</span>.</div>
+            <div>I am a <span class="outlined">Product Designer</span> that also dabbles in <span class="outlined">Product Management</span> since 7 years.</div>
             <div class="about">I help teams to create and bring to life beautiful, intuitive and accessible digital products.</div>
             <div class="projects">Here are some projects I took a part in :</div>
             

@@ -27,10 +27,11 @@
                 <div class="split">
                     <div class="block">
                         <div class="section-title">About</div>
-                        <div><span class="outlined">Auticiel</span> specializes in supporting individuals with intellectual developmental disorders or autism spectrum disorders. <span class="outlined">Auticiel</span> offers the <span class="outlined">Amikeo Suite</span>, a set of 10 applications available to the general public, as well as a tablet equipped with custom software to ensure ease of use for all audiences. </div>
+                        <div>The <span class="outlined">Amikeo Suite</span> is a set of 10 applications dedicated to help individuals with intellectual development or autism disorder.</div>
+                        <div>The <span class="outlined">Amikeo Suite</span> is edited by the company <span class="outlined">Auticiel</span> and provides its users with applications to help them speak, gain in autonomy, interact with others and play.</div>
                     </div>
                     <div class="block">
-                        <div class="section-title">Roles</div>
+                        <div class="section-title">My Roles</div>
                         <div>
                             <ul>
                                 <li>Definition of objectives and key results for the product team and an annual roadmap aligned with them</li>

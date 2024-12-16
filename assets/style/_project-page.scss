@@ -33,9 +33,6 @@ $project-page-small-margin: base-unit(6);
         .big-text {
 
             &.amikeo {
-                transform: translate(0, 0);
-                margin-left: -18%;
-                margin-bottom: -15%;
     
                 @media ($mobile) {
                     transform: translate(0, 0);

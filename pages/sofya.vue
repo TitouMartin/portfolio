@@ -29,7 +29,7 @@
                         <div><span class="outlined">Sofya</span> is a SaaS platform designed for professionals in the real estate sector. <span class="outlined">Sofya</span> combines several solutions that enable stakeholders in this field to collaborate, from document storage to graphical visualization of data or building plans. Each project member can work independently while being notified of the project's progress in real time.</div>
                     </div>
                     <div class="block">
-                        <div class="section-title">Roles</div>
+                        <div class="section-title">My Roles</div>
                         <div>
                             <ul>
                                 <li>Design and development of <span class="outlined">Sofya</span>'s electronic document management platform</li>
