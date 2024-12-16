@@ -262,7 +262,7 @@ $project-page-small-margin: base-unit(6);
     }
 
     .project-big-image-container {
-        width: 100vw;
+        // width: 100vw;
         height: 90vh;
 
         @media ($mobile) {
