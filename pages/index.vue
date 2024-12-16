@@ -160,6 +160,16 @@
                     </div>
                 </div>
             </NuxtLink>
+
+            <NuxtLink to="/coach-abileo">
+                <div class="project-container">
+                    <div class="project-image-container">
+                        <div class="project-background coach-abileo"></div>
+                         <div class="project-image coach-abileo"></div>
+                    </div>
+                    <div class="big-text coach-abileo">Coach <br> Abileo</div>
+                </div>
+            </NuxtLink>
         </div>
 
         <Contact />

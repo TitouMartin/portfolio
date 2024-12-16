@@ -227,7 +227,7 @@
             </div>
         </div>
 
-        <div class="light-pink-backrground">
+        <div class="full-background sofya">
             <div class="text-block">
                 <div>Finally, the entire interface was enhanced with buttons that allow users to view help texts, detailing the exact impact of their modifications. I also created <a href="https://wiki.sofya.fr/" target="_blank" class="text-block-link">detailed online documentation</a> and included many links to this documentation within the administration interfaces.</div>
                 <div class="project-page-big-margin">To make navigation more accessible, I also added a visual representation module of the document validation workflow, using drag-and-drop functionality to allow users to intuitively and visually manage complex access rights tasks.</div>
