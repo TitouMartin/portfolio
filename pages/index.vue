@@ -115,7 +115,7 @@
                 <div class="presentation">
                     <div>Hi ! I am</div>
                     <div>Titouan Martin,</div>
-                    <div>a 30 years old</div>
+                    <div>a {{ age }} years old</div>
                     <div>Paris based</div>
                 </div>
                 <div class="product-designer big-text">
@@ -126,7 +126,7 @@
 
             <h1 class="ab-fold-title mobile">
                 <div class="text-block">                    
-                    Hi ! I am Titouan Martin, a 30 years old Paris based
+                    Hi ! I am Titouan Martin, a {{ age }} years old Paris based
                 </div>
                 <div class="soap product-designer text1">prod</div>
                 <div class="soap product-designer text2">uct</div>
@@ -135,7 +135,7 @@
             </h1>
         </div>
         <div class="text-block">
-            <div>I am a <span class="outlined">Product Designer</span> that also dabbles in <span class="outlined">Product Management</span> since 7 years.</div>
+            <div>I am a <span class="outlined">Product Designer</span> that also dabbles in <span class="outlined">Product Management</span> since {{ workingYears }} years.</div>
             <div class="about">I help teams to create and bring to life beautiful, intuitive and accessible digital products.</div>
             <div class="projects">Here are some projects I took a part in :</div>
             
@@ -175,7 +175,7 @@
 </template>
 
 <script setup>
-    import { ref, onMounted } from 'vue';
+    import { ref, computed, onMounted } from 'vue';
 
     const isDragging = ref(false); // Tracks if dragging is active
     const dragStart = ref({ x: 0, y: 0 }); // Initial mouse position
@@ -193,7 +193,7 @@
         twitterTitle: 'Titouan Martin',
         twitterDescription: 'Paris based Product Designer',
         twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/landing-preview-square.png',
-        twitterCard: 'I am a 30 years old Product Designer and Product Manager'
+        twitterCard: 'I am a Paris based Product Designer and Product Manager'
     })
 
     useHead({
@@ -299,5 +299,29 @@
         document.querySelectorAll('.image-popup-container img').forEach((img) => {
             img.addEventListener('dragstart', (e) => e.preventDefault());
         });
+    });
+
+    // Age-related functionality
+    const birthDate = new Date('1994-01-31');
+
+    const age = computed(() => {
+        const today = new Date();
+        let calculatedAge = today.getFullYear() - birthDate.getFullYear();
+        const isBirthdayPassed =
+            today.getMonth() > birthDate.getMonth() ||
+            (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate());
+
+        if (!isBirthdayPassed) {
+            calculatedAge -= 1;
+        }
+        return calculatedAge;
+    });
+
+    // Working years-related functionality
+    const startYear = 2018;
+
+    const workingYears = computed(() => {
+        const today = new Date();
+        return today.getFullYear() - startYear;
     });
 </script>

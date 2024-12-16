@@ -250,7 +250,7 @@
             twitterTitle: 'Titouan Martin | Sofya',
             twitterDescription: 'A SaaS tool dedicated to help build better real estate projects.',
             twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/sofya-preview-square.png',
-            twitterCard: 'I am a 30 years old Product Designer and Product Manager'
+            twitterCard: 'I am a Paris based Product Designer and Product Manager'
         })
 
     useHead({
