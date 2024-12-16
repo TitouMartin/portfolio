@@ -49,8 +49,8 @@
                 <div>In addition to my role as a Designer, I actively contributed to the front-end development of the beta version of the application. As the team grew, I primarily focused on integration, working as a lead HTML & CSS developer and ensuring the maintenance and proper implementation of the design system across <span class="outlined">Sofya</span>'s entire technical ecosystem.</div>
             </div>
     
-            <div class="project-big-image-container sofya-double-macbook order-img-1">
-                <img src="~/assets/images/sofya/sofya-double-macbook.png" />
+            <div class="project-big-image-container sofya-double-imac order-img-1">
+                <img src="~/assets/images/sofya/sofya-double-imac.png" />
             </div>
     
             <div class="project-image-double sofya project-page-big-margin order-img-2">
@@ -214,8 +214,8 @@
         </div>
 
         <div class="project-big-image-container sofya-admin-buttons">
-            <img class="display-screen-desktop" src="~/assets/images/sofya/sofya-admin-buttons.png" />
-            <img class="display-screen-xs" src="~/assets/images/sofya/sofya-admin-buttons-mobile.png" />
+            <img src="~/assets/images/sofya/sofya-admin-buttons.png" />
+            <!-- <img class="display-screen-xs" src="~/assets/images/sofya/sofya-admin-buttons-mobile.png" /> -->
         </div>
     
         <div class="project-image-double sofya">

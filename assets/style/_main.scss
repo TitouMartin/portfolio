@@ -49,7 +49,7 @@ a {
 
 .ab-fold {
     height: 100vh;
-    width: 100vw;
+    // width: 100vw;
     position: relative;
 }
 
@@ -229,8 +229,8 @@ a {
             margin-bottom: -15%;
 
             @media ($mobile) {
-                bottom: -3vh;
-                left: 24vw;
+                bottom: 3vh;
+                left: 42vw;
             }
         }
 
