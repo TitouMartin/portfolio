@@ -136,3 +136,31 @@
     </div>
 
 </template>
+
+<script setup>
+    useSeoMeta({
+            title: 'Titouan Martin | Coach Abileo',
+            description: 'An applications dedicated to mentally disabled, autistic workers and their managers.',
+            ogTitle: 'Titouan Martin | Coach Abileo',
+            ogDescription: 'An applications dedicated to mentally disabled, autistic workers and their managers.',
+            ogImage: 'http://localhost:3000/_nuxt/assets/images/socials/coach-abileo-preview.png',
+            ogUrl: '[og:url]',
+            twitterTitle: 'Titouan Martin | Coach Abileo',
+            twitterDescription: 'An applications dedicated to mentally disabled, autistic workers and their managers.',
+            twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/coach-abileo-preview-square.png',
+            twitterCard: 'I am a 30 years old Product Designer and Product Manager'
+        })
+
+    useHead({
+        htmlAttrs: {
+            lang: 'en'
+        },
+        link: [
+            {
+            rel: 'icon',
+            type: 'image/png',
+            href: '/favicon.ico'
+            }
+        ]
+    })
+</script>

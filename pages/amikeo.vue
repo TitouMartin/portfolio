@@ -149,3 +149,31 @@
 
     </div>
 </template>
+
+<script setup>
+    useSeoMeta({
+            title: 'Titouan Martin | Amikeo',
+            description: 'A 10 applications suite dedicated to mentally deficient and autistic users.',
+            ogTitle: 'Titouan Martin | Amikeo',
+            ogDescription: 'A 10 applications suite dedicated to mentally deficient and autistic users.',
+            ogImage: 'http://localhost:3000/_nuxt/assets/images/socials/amikeo-preview.png',
+            ogUrl: '[og:url]',
+            twitterTitle: 'Titouan Martin | Amikeo',
+            twitterDescription: 'A 10 applications suite dedicated to mentally deficient and autistic users.',
+            twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/amikeo-preview-square.png',
+            twitterCard: 'I am a 30 years old Product Designer and Product Manager'
+        })
+
+    useHead({
+        htmlAttrs: {
+            lang: 'en'
+        },
+        link: [
+            {
+            rel: 'icon',
+            type: 'image/png',
+            href: '/favicon.ico'
+            }
+        ]
+    })
+</script>

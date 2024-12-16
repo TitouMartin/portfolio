@@ -176,110 +176,130 @@
     </div>
 </template>
 
-<script>
-    export default {
-        data() {
-            return {
-                isDragging: false, // Tracks if dragging is active
-                dragStart: { x: 0, y: 0 }, // Initial mouse position
-                offset: { x: 0, y: 0 }, // Offset of the element being dragged
-                currentElement: null, // The element being dragged
-                hiddenElements: new Set(), // A Set to track blocked elements
+<script setup>
+    import { ref, onMounted } from 'vue';
+
+    const isDragging = ref(false); // Tracks if dragging is active
+    const dragStart = ref({ x: 0, y: 0 }); // Initial mouse position
+    const offset = ref({ x: 0, y: 0 }); // Offset of the element being dragged
+    const currentElement = ref(null); // The element being dragged
+    const hiddenElements = ref(new Set()); // A Set to track blocked elements
+
+    useSeoMeta({
+        title: 'Titouan Martin',
+        description: 'Paris based Product Designer and product Manager.',
+        ogTitle: 'Titouan Martin',
+        ogDescription: 'Paris based Product Designer and product Manager.',
+        ogImage: 'http://localhost:3000/_nuxt/assets/images/socials/landing-preview.png',
+        ogUrl: '[og:url]',
+        twitterTitle: 'Titouan Martin',
+        twitterDescription: 'Paris based Product Designer',
+        twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/landing-preview-square.png',
+        twitterCard: 'I am a 30 years old Product Designer and Product Manager'
+    })
+
+    useHead({
+        htmlAttrs: {
+            lang: 'en'
+        },
+        link: [
+            {
+            rel: 'icon',
+            type: 'image/png',
+            href: '/favicon.ico'
+            }
+        ]
+    })
+
+    function appearImage(event) {
+        const triggeringElement = event.target.closest('.image-popup-container');
+
+        if (hiddenElements.value.has(triggeringElement)) {
+            return;
+        }
+
+        if (triggeringElement) {
+            triggeringElement.classList.remove('hidden');
+        }
+    }
+
+    function hideImage(event) {
+        const parentContainer = event.target.closest('.image-popup-container');
+
+        if (parentContainer) {
+            parentContainer.classList.add('hidden');
+            hiddenElements.value.add(parentContainer);
+
+            setTimeout(() => {
+                hiddenElements.value.delete(parentContainer);
+            }, 30000); // 30 seconds
+        }
+    }
+
+    function initDrag(event) {
+        const target = event.target.closest('.image-popup-container');
+
+        // Only allow dragging if the target is not hidden and isn't the close button
+        if (
+            target &&
+            !target.classList.contains('hidden') &&
+            !event.target.classList.contains('close')
+        ) {
+            isDragging.value = true;
+            currentElement.value = target;
+
+            // Record the initial mouse position
+            dragStart.value = {
+                x: event.clientX,
+                y: event.clientY,
             };
-        },
-        methods: {
-            appearImage(event) {
-                const triggeringElement = event.target.closest('.image-popup-container');;
 
+            // Get the current offset of the element relative to its parent
+            const rect = target.getBoundingClientRect();
+            const parentRect = target.closest('.ab-fold').getBoundingClientRect();
 
-                if (this.hiddenElements.has(triggeringElement)) {
-                    return;
-                }
+            offset.value = {
+                x: rect.left - parentRect.left,
+                y: rect.top - parentRect.top,
+            };
+        }
+    }
 
-                if (triggeringElement) {
-                    triggeringElement.classList.remove('hidden');
-                }
-            },
-            hideImage(event) {
-                const parentContainer = event.target.closest('.image-popup-container');
+    function drag(event) {
+        if (!isDragging.value || !currentElement.value) return;
 
-                if (parentContainer) {
-                    parentContainer.classList.add('hidden');
-                    this.hiddenElements.add(parentContainer);
+        // Calculate the new position relative to the `.ab-fold` container
+        const newLeft = offset.value.x + (event.clientX - dragStart.value.x);
+        const newTop = offset.value.y + (event.clientY - dragStart.value.y);
 
-                    setTimeout(() => {
-                        this.hiddenElements.delete(parentContainer);
-                    }, 30000); // 30 seconds
-                }
-            },
-            initDrag(event) {
-                const target = event.target.closest('.image-popup-container');
+        // Ensure the element stays within the `.ab-fold` container
+        const parent = currentElement.value.closest('.ab-fold');
+        const parentRect = parent.getBoundingClientRect();
+        const elementRect = currentElement.value.getBoundingClientRect();
 
-                // Only allow dragging if the target is not hidden and isn't the close button
-                if (
-                    target &&
-                    !target.classList.contains('hidden') &&
-                    !event.target.classList.contains('close')
-                ) {
-                    this.isDragging = true;
-                    this.currentElement = target;
+        const boundedLeft = Math.max(
+            0,
+            Math.min(newLeft, parentRect.width - elementRect.width)
+        );
+        const boundedTop = Math.max(
+            0,
+            Math.min(newTop, parentRect.height - elementRect.height)
+        );
 
-                    // Record the initial mouse position
-                    this.dragStart = {
-                        x: event.clientX,
-                        y: event.clientY,
-                    };
+        // Update the element's position relative to `.ab-fold`
+        currentElement.value.style.left = `${boundedLeft}px`;
+        currentElement.value.style.top = `${boundedTop}px`;
+    }
 
-                    // Get the current offset of the element relative to its parent
-                    const rect = target.getBoundingClientRect();
-                    const parentRect = target.closest('.ab-fold').getBoundingClientRect();
+    function endDrag() {
+        isDragging.value = false;
+        currentElement.value = null;
+    }
 
-                    this.offset = {
-                        x: rect.left - parentRect.left,
-                        y: rect.top - parentRect.top,
-                    };
-
-                }
-            },
-            drag(event) {
-
-                if (!this.isDragging || !this.currentElement) return;
-
-                // Calculate the new position relative to the `.ab-fold` container
-                const newLeft = this.offset.x + (event.clientX - this.dragStart.x);
-                const newTop = this.offset.y + (event.clientY - this.dragStart.y);
-
-                // Ensure the element stays within the `.ab-fold` container
-                const parent = this.currentElement.closest('.ab-fold');
-                const parentRect = parent.getBoundingClientRect();
-                const elementRect = this.currentElement.getBoundingClientRect();
-
-                const boundedLeft = Math.max(
-                    0,
-                    Math.min(newLeft, parentRect.width - elementRect.width)
-                );
-                const boundedTop = Math.max(
-                    0,
-                    Math.min(newTop, parentRect.height - elementRect.height)
-                );
-
-                // Update the element's position relative to `.ab-fold`
-                this.currentElement.style.left = `${boundedLeft}px`;
-                this.currentElement.style.top = `${boundedTop}px`;
-            },
-            endDrag() {
-                if (this.isDragging) {
-                }
-                this.isDragging = false;
-                this.currentElement = null;
-            },
-        },
-        mounted() {
-            // Prevent native drag on all images within draggable containers
-            document.querySelectorAll('.image-popup-container img').forEach((img) => {
+    // Prevent native drag on images inside draggable containers
+    onMounted(() => {
+        document.querySelectorAll('.image-popup-container img').forEach((img) => {
             img.addEventListener('dragstart', (e) => e.preventDefault());
         });
-}
-    };
-
+    });
 </script>
