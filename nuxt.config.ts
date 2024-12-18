@@ -25,6 +25,6 @@ export default defineNuxtConfig({
       },
     },
     build: {
-      assetPrefix: '/', // Static assets should be served from the root (not /portfolio)
+      assetPrefix: '/portfolio',
     }
 })
