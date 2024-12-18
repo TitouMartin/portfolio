@@ -48,15 +48,15 @@
             </div>
     
             <div class="project-big-image-container coach-abileo-ipad order-img-1">
-                <img src="/public/images/coach-abileo/coach-abileo-ipad.png" />
+                <img src="/images/coach-abileo/coach-abileo-ipad.png" />
             </div>
     
             <div class="project-image-double coach-abileo project-page-big-margin order-img-2">
                 <div class="img-container img-1">
-                    <img src="/public/images/coach-abileo/coach-abileo-bibli.png" />
+                    <img src="/images/coach-abileo/coach-abileo-bibli.png" />
                 </div>
                 <div class="img-container img-2">
-                    <img src="/public/images/coach-abileo/coach-abileo-skills.png" />
+                    <img src="/images/coach-abileo/coach-abileo-skills.png" />
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                     <li>The addition of a comment field for supervisors to elaborate on their evaluation.</li>
                 </ul>
             </div>
-            <img src="/public/images/coach-abileo/coach-abileo-comp-eval.png" class="coach-abileo" />
+            <img src="/images/coach-abileo/coach-abileo-comp-eval.png" class="coach-abileo" />
             <div class="text-block">
                 <ul>
                     <li>The ability to mark a competency as "not currently evaluable," since all competencies in a framework must be assessed, but some may not yet have been utilized by the worker during their assignments.</li>

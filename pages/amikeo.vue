@@ -51,15 +51,15 @@
             </div>
     
             <div class="project-big-image-container amikeo-10-iphones order-img-1">
-                <img src="/public/images/amikeo/amikeo-10-iphones.png" />
+                <img src="/images/amikeo/amikeo-10-iphones.png" />
             </div>
     
             <div class="project-image-double amikeo project-page-big-margin order-img-2">
                 <div class="img-container img-1">
-                    <img src="/public/images/amikeo/amikeo-trial.png" />
+                    <img src="/images/amikeo/amikeo-trial.png" />
                 </div>
                 <div class="img-container img-2">
-                    <img src="/public/images/amikeo/amikeo-success.png" />
+                    <img src="/images/amikeo/amikeo-success.png" />
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
         </div>
 
         <div class="project-big-image-container amikeo-user-journey project-page-big-margin">
-            <img src="/public/images/amikeo/amikeo-user-journey.png" />
+            <img src="/images/amikeo/amikeo-user-journey.png" />
         </div>
 
         <div class="text-block project-page-big-margin">
@@ -127,20 +127,20 @@
         <div class="project-big-image-container amikeo-login-revamp">
             <div class="image-row old-login text-block">
                 <div class="andthen big-text">And Then</div>
-                <img src="/public/images/amikeo/amikeo-old-login/old-login-1.png">
-                <img src="/public/images/amikeo/amikeo-old-login/old-login-2.png">
-                <img src="/public/images/amikeo/amikeo-old-login/old-login-3.png">
-                <img src="/public/images/amikeo/amikeo-old-login/old-login-4.png">
+                <img src="/images/amikeo/amikeo-old-login/old-login-1.png">
+                <img src="/images/amikeo/amikeo-old-login/old-login-2.png">
+                <img src="/images/amikeo/amikeo-old-login/old-login-3.png">
+                <img src="/images/amikeo/amikeo-old-login/old-login-4.png">
             </div>
 
             <div class="image-row new-login text-block">
                 <div class="became big-text">Became</div>
-                <img src="/public/images/amikeo/amikeo-new-login/new-login-1.png">
-                <img src="/public/images/amikeo/amikeo-new-login/new-login-2.png">
-                <img src="/public/images/amikeo/amikeo-new-login/new-login-3.png">
-                <img src="/public/images/amikeo/amikeo-new-login/new-login-4.png">
-                <img src="/public/images/amikeo/amikeo-new-login/new-login-5.png">
-                <img src="/public/images/amikeo/amikeo-new-login/new-login-6.png">
+                <img src="/images/amikeo/amikeo-new-login/new-login-1.png">
+                <img src="/images/amikeo/amikeo-new-login/new-login-2.png">
+                <img src="/images/amikeo/amikeo-new-login/new-login-3.png">
+                <img src="/images/amikeo/amikeo-new-login/new-login-4.png">
+                <img src="/images/amikeo/amikeo-new-login/new-login-5.png">
+                <img src="/images/amikeo/amikeo-new-login/new-login-6.png">
             </div>
         </div>
 

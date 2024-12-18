@@ -48,15 +48,15 @@
             </div>
     
             <div class="project-big-image-container sofya-double-imac order-img-1">
-                <img src="/public/images/sofya/sofya-double-imac.png" />
+                <img src="/images/sofya/sofya-double-imac.png" />
             </div>
     
             <div class="project-image-double sofya project-page-big-margin order-img-2">
                 <div class="img-container img-1">
-                    <img src="/public/images/sofya/sofya-visa.png" />
+                    <img src="/images/sofya/sofya-visa.png" />
                 </div>
                 <div class="img-container img-2">
-                    <img src="/public/images/sofya/sofya-document.png" />
+                    <img src="/images/sofya/sofya-document.png" />
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
         <div class="text-w-image-container sofya-filters project-page-big-margin">
             <div class="background"></div>
             <div class="text-w-image-sub-container">
-                <img src="/public/images/sofya/sofya-filters.png" />
+                <img src="/images/sofya/sofya-filters.png" />
                 <div>Since configuring these refined display settings can take time, we introduced what we call "views." A view represents a set of displayed/hidden columns, filters, and sorting preferences. Each new combination created by a user is treated as a new view, which they can save in just a few clicks if they think they might reuse it later.
                     To make this system easier to use and help users save time, five default views—developed during workshops with building professionals—are available to all users.</div>
             </div>
@@ -106,7 +106,7 @@
 
             <div class="project-image-double sofya project-page-big-margin display-screen-xs">
                 <div class="img-container img-3">
-                    <img src="/public/images/sofya/sofya-view.png" />
+                    <img src="/images/sofya/sofya-view.png" />
                 </div>
             </div>
             
@@ -117,16 +117,16 @@
     
             <div class="project-image-double sofya project-page-big-margin display-screen-desktop">
                 <div class="img-container img-3">
-                    <img src="/public/images/sofya/sofya-view.png" />
+                    <img src="/images/sofya/sofya-view.png" />
                 </div>
                 <div class="img-container img-4">
-                    <img src="/public/images/sofya/sofya-save-view.png" />
+                    <img src="/images/sofya/sofya-save-view.png" />
                 </div>
             </div>
 
             <div class="project-image-double sofya project-page-big-margin display-screen-xs">
                 <div class="img-container img-4">
-                    <img src="/public/images/sofya/sofya-save-view.png" />
+                    <img src="/images/sofya/sofya-save-view.png" />
                 </div>
             </div>
 
@@ -168,14 +168,14 @@
                     <div>The project settings include a wide range of rules specific to the French construction sector, the management of information display, and granular access rights control for different sections of the application. This refined configuration also helps maintain a clean and uncluttered main navigation interface.</div>
                     <div>It was necessary to design a user journey and configuration panels that would allow a novice administrator to make the right choices while clearly understanding all the available features.</div>
                 </div>
-                <img src="/public/images/sofya/sofya-admin.png" />
+                <img src="/images/sofya/sofya-admin.png" />
             </div>
         </div>
 
         <div class="text-block project-page-small-margin">
             <div class="split align-center">
                 <div class="block old-sofya-img">
-                    <img src="/public/images/sofya/sofya-old-ui.png" />
+                    <img src="/images/sofya/sofya-old-ui.png" />
                 </div>
                 <div class="block">
                     <div>
@@ -195,13 +195,13 @@
             <div class="align-right">
                 <div class="sofya-admin-orga old-admin project-page-small-margin">
                     <div class="outlined">Old Administration section structuration</div>
-                    <img src="/public/images/sofya/sofya-old-admin-orga.png" />
+                    <img src="/images/sofya/sofya-old-admin-orga.png" />
                 </div>
             </div>
 
             <div class="sofya-admin-orga project-page-small-margin">
                 <div class="outlined">New structuration</div>
-                <img src="/public/images/sofya/sofya-new-admin-orga.png" />
+                <img src="/images/sofya/sofya-new-admin-orga.png" />
             </div>
         </div>
 
@@ -212,16 +212,16 @@
         </div>
 
         <div class="project-big-image-container sofya-admin-buttons">
-            <img src="/public/images/sofya/sofya-admin-buttons.png" />
-            <!-- <img class="display-screen-xs" src="/public/images/sofya/sofya-admin-buttons-mobile.png" /> -->
+            <img src="/images/sofya/sofya-admin-buttons.png" />
+            <!-- <img class="display-screen-xs" src="/images/sofya/sofya-admin-buttons-mobile.png" /> -->
         </div>
     
         <div class="project-image-double sofya">
             <div class="img-container img-5">
-                <img src="/public/images/sofya/sofya-admin-config.png" />
+                <img src="/images/sofya/sofya-admin-config.png" />
             </div>
             <div class="img-container img-6 display-screen-desktop">
-                <img src="/public/images/sofya/sofya-admin-empty-state.png" />
+                <img src="/images/sofya/sofya-admin-empty-state.png" />
             </div>
         </div>
 
@@ -230,7 +230,7 @@
                 <div>Finally, the entire interface was enhanced with buttons that allow users to view help texts, detailing the exact impact of their modifications. I also created <a href="https://wiki.sofya.fr/" target="_blank" class="text-block-link">detailed online documentation</a> and included many links to this documentation within the administration interfaces.</div>
                 <div class="project-page-big-margin">To make navigation more accessible, I also added a visual representation module of the document validation workflow, using drag-and-drop functionality to allow users to intuitively and visually manage complex access rights tasks.</div>
             </div>
-            <img src="/public/images/sofya/sofya-validation-circuit.png" />
+            <img src="/images/sofya/sofya-validation-circuit.png" />
         </div>
 
         <Contact />
