@@ -24,7 +24,4 @@ export default defineNuxtConfig({
         },
       },
     },
-    // build: {
-    //   assetPrefix: '/portfolio',
-    // }
 })
