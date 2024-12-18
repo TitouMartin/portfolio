@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   app: {
-    baseURL: '/portfolio/',
+    baseURL: '/',
   },
   nitro: {
     preset: 'static',
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
         },
       },
     },
-    build: {
-      assetPrefix: '/portfolio',
-    }
+    // build: {
+    //   assetPrefix: '/portfolio',
+    // }
 })
