@@ -7,6 +7,9 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/portfolio/',
   },
+  nitro: {
+    preset: 'static',
+  },
   alias: {
     "@": resolve(__dirname, "/")
     },
