@@ -8,7 +8,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/juno.png" alt="juno synthesizer">
+                        <img src="/public/images/landing-images/juno.png" alt="juno synthesizer">
                     </div>
                 </div>
 
@@ -16,7 +16,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/cog.png" alt="bike cog">
+                        <img src="/public/images/landing-images/cog.png" alt="bike cog">
                     </div>
                 </div>
 
@@ -24,7 +24,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/map-sofya.png" alt="map">
+                        <img src="/public/images/landing-images/map-sofya.png" alt="map">
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/me.png" alt="me">
+                        <img src="/public/images/landing-images/me.png" alt="me">
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/login-sofya.png" alt="login sofya">
+                        <img src="/public/images/landing-images/login-sofya.png" alt="login sofya">
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/paula.png" alt="pink bike">
+                        <img src="/public/images/landing-images/paula.png" alt="pink bike">
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/miam.png" alt="fondue dish">
+                        <img src="/public/images/landing-images/miam.png" alt="fondue dish">
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/support-sofya.png" alt="sofya support">
+                        <img src="/public/images/landing-images/support-sofya.png" alt="sofya support">
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/hat.png" alt="red hat">
+                        <img src="/public/images/landing-images/hat.png" alt="red hat">
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/ipad-auticiel.png" alt="ipad auticiel">
+                        <img src="/public/images/landing-images/ipad-auticiel.png" alt="ipad auticiel">
                     </div>
                 </div>
 
@@ -88,7 +88,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/dancehaul.png" alt="dancehaul snowboard">
+                        <img src="/public/images/landing-images/dancehaul.png" alt="dancehaul snowboard">
                     </div>
                 </div>
 
@@ -96,7 +96,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/macbook-auticiel.png" alt="macbook auticiel">
+                        <img src="/public/images/landing-images/macbook-auticiel.png" alt="macbook auticiel">
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@
                     <div class="image-popup-inner-container">
                         <div class="close soap" @click="hideImage($event)">x</div>
     
-                        <img src="~/assets/images/landing-images/pbasse.png" alt="precision basse">
+                        <img src="/public/images/landing-images/pbasse.png" alt="precision basse">
                     </div>
                 </div>
 
