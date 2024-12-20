@@ -24,13 +24,13 @@
                 <div class="split">
                     <div class="block">
                         <div class="section-title">About</div>
-                        <div><span class="outlined">Sofya</span> is a SaaS platform designed for professionals in the real estate sector. <span class="outlined">Sofya</span> combines several solutions that enable stakeholders in this field to collaborate, from document storage to graphical visualization of data or building plans. Each project member can work independently while being notified of the project's progress in real time.</div>
+                        <div><a class="outlined" href="https://www.sofya.fr/=" target="_blank">Sofya</a> is a SaaS platform designed for professionals in the real estate sector. <a class="outlined" href="https://www.sofya.fr/=" target="_blank">Sofya</a> combines several solutions that enable stakeholders in this field to collaborate, from document storage to graphical visualization of data or building plans. Each project member can work independently while being notified of the project's progress in real time.</div>
                     </div>
                     <div class="block">
                         <div class="section-title">My Roles</div>
                         <div>
                             <ul>
-                                <li>Design and development of <span class="outlined">Sofya</span>'s electronic document management platform</li>
+                                <li>Design and development of <a class="outlined" href="https://www.sofya.fr/=" target="_blank">Sofya</a>'s electronic document management platform</li>
                                 <li>Rebranding of the solution in preparation for the launch of the new flagship product</li>
                                 <li>Creation, maintenance, and evolution of the design system across all solutions</li>
                                 <li>Front-end development and integration of designs throughout the entire solution</li>
@@ -42,9 +42,9 @@
             
             <div class="text-block project-page-big-margin order-text-2">
                 <div class="section-title">Context</div>
-                <div class="pspacing-xs">The initial mockups for <span class="outlined">Sofya</span>'s electronic document management solution followed the trend of other similar solutions aimed at real estate professionals: outdated user interfaces and complex user experiences. Hired as a Product Designer at the project's inception, my goal was to give the platform a look and feel as close as possible to a B2C product, to stand out from the competition.
-                        By ensuring the simplest possible user experience while maintaining a high number of features, <span class="outlined">Sofya</span> quickly established itself as the most user-friendly platform on the French market, while remaining rich in business-specific functionalities.</div>
-                <div>In addition to my role as a Designer, I actively contributed to the front-end development of the beta version of the application. As the team grew, I primarily focused on integration, working as a lead HTML & CSS developer and ensuring the maintenance and proper implementation of the design system across <span class="outlined">Sofya</span>'s entire technical ecosystem.</div>
+                <div class="pspacing-xs">The initial mockups for <a class="outlined" href="https://www.sofya.fr/=" target="_blank">Sofya</a>'s electronic document management solution followed the trend of other similar solutions aimed at real estate professionals: outdated user interfaces and complex user experiences. Hired as a Product Designer at the project's inception, my goal was to give the platform a look and feel as close as possible to a B2C product, to stand out from the competition.
+                        By ensuring the simplest possible user experience while maintaining a high number of features, <a class="outlined" href="https://www.sofya.fr/=" target="_blank">Sofya</a> quickly established itself as the most user-friendly platform on the French market, while remaining rich in business-specific functionalities.</div>
+                <div>In addition to my role as a Designer, I actively contributed to the front-end development of the beta version of the application. As the team grew, I primarily focused on integration, working as a lead HTML & CSS developer and ensuring the maintenance and proper implementation of the design system across <a class="outlined" href="https://www.sofya.fr/=" target="_blank">Sofya</a>'s entire technical ecosystem.</div>
             </div>
     
             <div class="project-big-image-container sofya-double-imac order-img-1">

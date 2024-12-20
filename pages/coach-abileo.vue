@@ -25,7 +25,7 @@
                 <div class="split">
                     <div class="block">
                         <div class="section-title">About</div>
-                        <div>The <span class="outlined">Coach Abileo</span> was created by <span class="outlined">Auticiel</span> to provide companies specialized in handicaped workers employment (ESATS) a tool for the workers and their management. This tool helps workers to be more autonomous and helps management in tracking workers progress and establishing a career plan. </div>
+                        <div>The <a class="outlined" href="https://auticiel.com/coach-abileo/" target="_blank">Coach Abileo</a> was created by <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a> to provide companies specialized in handicaped workers employment (ESATS) a tool for the workers and their management. This tool helps workers to be more autonomous and helps management in tracking workers progress and establishing a career plan. </div>
                     </div>
                     <div class="block">
                         <div class="section-title">My Roles</div>
@@ -44,7 +44,7 @@
             
             <div class="text-block project-page-big-margin order-text-2">
                 <div class="section-title">Context</div>
-                <div>The <span class="outlined">Coach Abileo</span> was developped in partnership with an ESAT to address the specific needs of the disabled employment market. A beta version was released a few weeks before I joined the team. With more and more different clients we quickly realized that the specific tools developped for the management were slow to be adopted. After interviews and on site visits I draw the conclusion that the <span class="outlined">Coach Abileo</span> failed to really address the needs of the managers. Therefore we worked on rethinking the product and the mid-term strategy to better fit the market expectations. As laws around the ESATS and specifically their use of digital tools are frequently being passed in France it was crucial to rapidly have a working product in order to be seen as a valid actor in this sector.</div>
+                <div>The <a class="outlined" href="https://auticiel.com/coach-abileo/" target="_blank">Coach Abileo</a> was developped in partnership with an ESAT to address the specific needs of the disabled employment market. A beta version was released a few weeks before I joined the team. With more and more different clients we quickly realized that the specific tools developped for the management were slow to be adopted. After interviews and on site visits I draw the conclusion that the <a class="outlined" href="https://auticiel.com/coach-abileo/" target="_blank">Coach Abileo</a> failed to really address the needs of the managers. Therefore we worked on rethinking the product and the mid-term strategy to better fit the market expectations. As laws around the ESATS and specifically their use of digital tools are frequently being passed in France it was crucial to rapidly have a working product in order to be seen as a valid actor in this sector.</div>
             </div>
     
             <div class="project-big-image-container coach-abileo-ipad order-img-1">

@@ -26,8 +26,8 @@
                 <div class="split">
                     <div class="block">
                         <div class="section-title">About</div>
-                        <div>The <span class="outlined">Amikeo Suite</span> is a set of 10 applications dedicated to help individuals with intellectual development or autism disorder.</div>
-                        <div>The <span class="outlined">Amikeo Suite</span> is edited by the company <span class="outlined">Auticiel</span> and provides its users with applications to help them speak, gain in autonomy, interact with others and play.</div>
+                        <div>The <a class="outlined" href="https://auticiel.com/amikeo/" target="_blank">Amikeo Suite</a> is a set of 10 applications dedicated to help individuals with intellectual development or autism disorder.</div>
+                        <div>The <a class="outlined" href="https://auticiel.com/amikeo/" target="_blank">Amikeo Suite</a> is edited by the company <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a> and provides its users with applications to help them speak, gain in autonomy, interact with others and play.</div>
                     </div>
                     <div class="block">
                         <div class="section-title">My Roles</div>
@@ -46,8 +46,8 @@
             
             <div class="text-block project-page-big-margin order-text-2">
                 <div class="section-title">Context</div>
-                <div class="pspacing-xs">The position of Product Manager has been vacant for more than two years, and in the absence of a designer, all of <span class="outlined">Auticiel</span>'s products have been developed and maintained by two developers. This has resulted in a lack of coherence among the various implemented features, as well as limited visibility on specific actions required to evolve the product over the coming years.</div>
-                <div>Given that <span class="outlined">Auticiel</span>'s product team is small (4 developers and one product owner/designer) compared to the number of products (12 applications and two cloud platforms), the team’s backlog is very heavy. Therefore, it was necessary for me to identify the most critical areas for improvement and propose simple designs that could be quickly integrated.</div>
+                <div class="pspacing-xs">The position of Product Manager has been vacant for more than two years, and in the absence of a designer, all of <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a>'s products have been developed and maintained by two developers. This has resulted in a lack of coherence among the various implemented features, as well as limited visibility on specific actions required to evolve the product over the coming years.</div>
+                <div>Given that <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a>'s product team is small (4 developers and one product owner/designer) compared to the number of products (12 applications and two cloud platforms), the team’s backlog is very heavy. Therefore, it was necessary for me to identify the most critical areas for improvement and propose simple designs that could be quickly integrated.</div>
             </div>
     
             <div class="project-big-image-container amikeo-10-iphones order-img-1">
@@ -92,22 +92,22 @@
                 <div class="section-title">Problem</div>
                 <div>After analyzing numerous user interactions with the support service and conducting several interviews with individuals, we realized that users struggled to understand the differences between:</div>
                 <ul>
-                    <li>the software publishing company, <span class="outlined">Auticiel</span>.</li>
-                    <li>The <span class="outlined">Amikeo Suite</span>, 10 applications accessible through an annual or monthly subscription, that can be purchased through an app store.</li>
-                    <li>The "<span class="outlined">Amikeo Pack</span>", which includes a tablet equipped with custom software for disabled people and a three-year subscription to the <span class="outlined">Amikeo Suite</span>, that can only be purchased on <span class="outlined">Auticiel</span>’s website.</li>
+                    <li>the software publishing company, <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a>.</li>
+                    <li>The <a class="outlined" href="https://auticiel.com/amikeo/" target="_blank">Amikeo Suite</a>, 10 applications accessible through an annual or monthly subscription, that can be purchased through an app store.</li>
+                    <li>The "<a class="outlined" href="https://auticiel.com/jequipe-ma-famille/" target="_blank">Amikeo Pack</a>", which includes a tablet equipped with custom software for disabled people and a three-year subscription to the <a class="outlined" href="https://auticiel.com/amikeo/" target="_blank">Amikeo Suite</a>, that can only be purchased on <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a>’s website.</li>
                 </ul>
-                <div class="project-page-small-margin">In addition to consolidating its offering's presentation, <span class="outlined">Auticiel</span> aims to improve B2C customer engagement with its applications. While each application is individually easy to use, users find it difficult to understand how the 10 applications in the <span class="outlined">Amikeo Suite</span> can be used together.</div>
+                <div class="project-page-small-margin">In addition to consolidating its offering's presentation, <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a> aims to improve B2C customer engagement with its applications. While each application is individually easy to use, users find it difficult to understand how the 10 applications in the <a class="outlined" href="https://auticiel.com/amikeo/" target="_blank">Amikeo Suite</a> can be used together.</div>
             </div>
 
             <div>
                 <div class="section-title">Interactions</div>
-                <div>To streamline the onboarding process for B2C users of the <span class="outlined">Amikeo Suite</span>, I also redesigned all the emails sent and adjusted their timing. To complement this work, numerous videos presenting the applications and their use cases were created. To achieve this, I mapped the journey of each individual user based on their acquisition channel.</div>
+                <div>To streamline the onboarding process for B2C users of the <a class="outlined" href="https://auticiel.com/amikeo/" target="_blank">Amikeo Suite</a>, I also redesigned all the emails sent and adjusted their timing. To complement this work, numerous videos presenting the applications and their use cases were created. To achieve this, I mapped the journey of each individual user based on their acquisition channel.</div>
                 <div>I then added missing emails and revamped the most important ones for these channels to include:</div>
                 <ul>
                     <li>Information about the new access to the <span class="outlined">Amikeo Cloud</span> and how to use it to quickly share content across applications..</li>
                     <li>Use case videos demonstrating how to use multiple applications to address a specific problem.</li>
-                    <li>Tutorial videos for getting started with the main features of <span class="outlined">Auticiel</span>’s tools.</li>
-                    <li>Registration links for training sessions provided by <span class="outlined">Auticiel</span> trainers for families, to assist them in defining their educational projects.</li>
+                    <li>Tutorial videos for getting started with the main features of <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a>’s tools.</li>
+                    <li>Registration links for training sessions provided by <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a> trainers for families, to assist them in defining their educational projects.</li>
                 </ul>
             </div>
         </div>
@@ -118,9 +118,9 @@
 
         <div class="text-block project-page-big-margin">
             <div class="section-title">interfaces</div>
-            <div class="pspacing-xs"><span class="outlined">Auticiel</span> has developed a Cloud platform enabling its professional clients to manage their tablet fleets. This platform includes a community library, allowing professionals to share customized content created for <span class="outlined">Auticiel</span>’s applications. Additionally, <span class="outlined">Auticiel</span>’s educational teams share a selection of content every month, centered around a specific theme.</div>
-            <div class="pspacing-xs">To make the applications more accessible for B2C users, <span class="outlined">Auticiel</span> decided to include access to the Cloud platform in the <span class="outlined">Amikeo</span> subscription. This allows B2C users to access, among other things, the community content library. Previously, users had to create the content they needed themselves. With this library, they can now share new content in their applications and begin using it immediately upon subscribing.</div>
-            <div class="project-page-small-margin">To ensure individual users can access this Cloud platform and easily connect on a new device, we implemented a guided account creation system for <span class="outlined">Amikeo</span>. From now on, all new users will need to go through this workflow to subscribe to a new plan.</div>
+            <div class="pspacing-xs"><a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a> has developed a Cloud platform enabling its professional clients to manage their tablet fleets. This platform includes a community library, allowing professionals to share customized content created for <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a>’s applications. Additionally, <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a>’s educational teams share a selection of content every month, centered around a specific theme.</div>
+            <div class="pspacing-xs">To make the applications more accessible for B2C users, <a class="outlined" href="https://auticiel.com" target="_blank">Auticiel</a> decided to include access to the Cloud platform in the <a class="outlined" href="https://auticiel.com/amikeo/" target="_blank">Amikeo</a> subscription. This allows B2C users to access, among other things, the community content library. Previously, users had to create the content they needed themselves. With this library, they can now share new content in their applications and begin using it immediately upon subscribing.</div>
+            <div class="project-page-small-margin">To ensure individual users can access this Cloud platform and easily connect on a new device, we implemented a guided account creation system for <a class="outlined" href="https://auticiel.com/amikeo/" target="_blank">Amikeo</a>. From now on, all new users will need to go through this workflow to subscribe to a new plan.</div>
             <div>The childlike and school-oriented aspect of the applications, which has been a frequent criticism of Auticiel (as the originally child-focused audience has expanded to include other age groups over the years), was also addressed. Since the redesigned interfaces are aimed at caregivers rather than beneficiaries, I took the opportunity during this revamp of the signup flow to refine this aspect and make it more age-agnostic and professional.</div>
         </div>
 

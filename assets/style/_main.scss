@@ -63,6 +63,15 @@ a {
     .outlined {
         @include soap;
         color: $red;
+
+    }
+
+    a.outlined {
+        transition: $transition-short;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     .section-title {
