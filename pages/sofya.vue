@@ -42,7 +42,7 @@
             
             <div class="text-block project-page-big-margin order-text-2">
                 <div class="section-title">Context</div>
-                <div>The initial mockups for <span class="outlined">Sofya</span>'s electronic document management solution followed the trend of other similar solutions aimed at real estate professionals: outdated user interfaces and complex user experiences. Hired as a Product Designer at the project's inception, my goal was to give the platform a look and feel as close as possible to a B2C product, to stand out from the competition.
+                <div class="pspacing-xs">The initial mockups for <span class="outlined">Sofya</span>'s electronic document management solution followed the trend of other similar solutions aimed at real estate professionals: outdated user interfaces and complex user experiences. Hired as a Product Designer at the project's inception, my goal was to give the platform a look and feel as close as possible to a B2C product, to stand out from the competition.
                         By ensuring the simplest possible user experience while maintaining a high number of features, <span class="outlined">Sofya</span> quickly established itself as the most user-friendly platform on the French market, while remaining rich in business-specific functionalities.</div>
                 <div>In addition to my role as a Designer, I actively contributed to the front-end development of the beta version of the application. As the team grew, I primarily focused on integration, working as a lead HTML & CSS developer and ensuring the maintenance and proper implementation of the design system across <span class="outlined">Sofya</span>'s entire technical ecosystem.</div>
             </div>
@@ -111,8 +111,8 @@
             </div>
             
             <div class="text-block project-page-big-margin">
-                <div>Subsequently, we noticed that within a team, only certain users who frequently used the electronic document management platform took the time to configure views. However, since all team members working on similar tasks have similar display customization needs, we added a sharing feature. This allows a user to share their views with their team members, eliminating the need for everyone to configure the same views individually.
-                    This feature also enabled us to set up specific views for multiple teams at the start of a project and share them directly, ensuring a smoother onboarding experience with the application.</div>
+                <div class="pspacing-xs">Subsequently, we noticed that within a team, only certain users who frequently used the electronic document management platform took the time to configure views. However, since all team members working on similar tasks have similar display customization needs, we added a sharing feature.</div>
+                <div>This allows users to share their views with their team members, eliminating the need for everyone to configure the same views individually. This feature also enabled us to set up specific views for multiple teams at the start of a project and share them directly, ensuring a smoother onboarding experience with the application.</div>
             </div>
     
             <div class="project-image-double sofya project-page-big-margin display-screen-desktop">
@@ -206,8 +206,8 @@
         </div>
 
         <div class="text-block project-page-big-margin">
-            <div>First, I decided to group all the configuration features into a single section to simplify navigation.</div>
-            <div>Since this set of settings could be overwhelming for a user, I then designed an onboarding module to guide users through configuring the main features. This module also includes the option to duplicate rule sets from another project, saving expert users a significant amount of time. Additionally, default "Sofya" settings are offered to users, allowing them to set up a basic nomenclature structure in just a few clicks. These default settings are based on a thorough study of the most common settings across numerous real estate projects.</div>
+            <div class="pspacing-xs">First, I decided to group all the configuration features into a single section to simplify navigation.</div>
+            <div class="pspacing-xs">Since this set of settings could be overwhelming for a user, I then designed an onboarding module to guide users through configuring the main features. This module also includes the option to duplicate rule sets from another project, saving expert users a significant amount of time. Additionally, default "Sofya" settings are offered to users, allowing them to set up a basic nomenclature structure in just a few clicks. These default settings are based on a thorough study of the most common settings across numerous real estate projects.</div>
             <div>I also made extensive use of empty states, particularly working on them to leverage the available space for training users on the available features, as well as on the actions needed to complete or progress their project configuration.</div>
         </div>
 
@@ -227,7 +227,7 @@
 
         <div class="full-background sofya">
             <div class="text-block">
-                <div>Finally, the entire interface was enhanced with buttons that allow users to view help texts, detailing the exact impact of their modifications. I also created <a href="https://wiki.sofya.fr/" target="_blank" class="text-block-link">detailed online documentation</a> and included many links to this documentation within the administration interfaces.</div>
+                <div class="pspacing-xs">Finally, the entire interface was enhanced with buttons that allow users to view help texts, detailing the exact impact of their modifications. I also created <a href="https://wiki.sofya.fr/" target="_blank" class="text-block-link">detailed online documentation</a> and included many links to this documentation within the administration interfaces.</div>
                 <div class="project-page-big-margin">To make navigation more accessible, I also added a visual representation module of the document validation workflow, using drag-and-drop functionality to allow users to intuitively and visually manage complex access rights tasks.</div>
             </div>
             <img src="/images/sofya/sofya-validation-circuit.png" />

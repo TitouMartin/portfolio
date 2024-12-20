@@ -77,6 +77,10 @@ a {
         }
     }
 
+    .pspacing-xs {
+        margin-bottom: $base-unit;
+    }
+
     .text-block-link {
         text-decoration: underline;
         transition: $transition-short;
@@ -244,8 +248,9 @@ a {
             margin-bottom: -300px;        
 
             @media ($mobile) {
-                bottom: 3vh;
-                left: 42vw;
+                top: 292px;
+                left: 82px;
+                margin: 0;
             }
         }
 
@@ -265,8 +270,10 @@ a {
             line-height: 13vh;
 
             @media ($mobile) {
-                bottom: 3vh;
-                left: 42vw;
+                top: -35px;
+                left: 129px;
+                margin: 0;
+                line-height: 100%;
             }
         }
     }
