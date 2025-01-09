@@ -103,17 +103,15 @@ a {
 }
 
 
-.contact-container {
+
+.bottom-page-block {
     margin-top: base-unit(30);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     @media ($mobile) {
         margin-top: base-unit(15);
     }
 
-    .contact-text {
+    .block-title {
         font-size: $text-block-big;
         text-align: center;
         margin-bottom: base-unit(3);
@@ -122,55 +120,126 @@ a {
             font-size: $text-block-mobile-big;
         }
     }
-
-    .big-button {
-        background-color: $blue;
-        color: $red;
-        border-radius: $border-radius;
-        border: none;
-        padding: 0 base-unit(3);
-        margin-bottom: base-unit(7);
-
-        @media ($mobile) {
-            padding: base-unit(2) base-unit(3);
+    
+    &.contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .big-button {
+            background-color: $blue;
+            color: $red;
+            border-radius: $border-radius;
+            border: none;
+            padding: 0 base-unit(3);
+            margin-bottom: base-unit(7);
+    
+            @media ($mobile) {
+                padding: base-unit(2) base-unit(3);
+            }
+    
+            &:hover {
+                cursor: pointer;
+            }
         }
-
-        &:hover {
-            cursor: pointer;
+    
+        .socials-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: base-unit(2);
+    
+            @media ($mobile) {
+                flex-direction: column;
+            }
+    
+            .social {
+                padding: $base-unit base-unit(2);
+                border-radius: $border-radius;
+                font-size: $text-block-big;
+                color: $blue;
+    
+                @media ($mobile) {
+                    padding: base-unit(2);
+                    font-size: $text-block-mobile-big;
+                }
+    
+                &.linkedin {
+                    background-color: $light-green;
+                }
+    
+                &.malt {
+                    background-color: $light-purple;
+                }
+    
+                &.instagram {
+                    background-color: $light-pink;
+                }
+            }
         }
     }
 
-    .socials-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: base-unit(2);
+    .projects-readmore {
 
-        @media ($mobile) {
-            flex-direction: column;
+        .project-background {
+            border-radius: $border-radius !important;
         }
 
-        .social {
-            padding: $base-unit base-unit(2);
-            border-radius: $border-radius;
-            font-size: $text-block-big;
-            color: $blue;
-
-            @media ($mobile) {
-                padding: base-unit(2);
-                font-size: $text-block-mobile-big;
+        @media ($desktop) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    
+            a {
+                width: 40%;
+                position: relative;
+    
+                .project-container {
+                    margin-bottom: 0;
+        
+                    .big-text {
+                        font-size: $text-block-big;
+                        position: absolute;
+    
+                        &.coach-abileo {
+                            line-height: 100%;
+                            top: 30%;
+                            right: -10%;
+    
+                            &.sofya-page {
+                                left: 5%;
+                            }
+                        }
+    
+                        &.sofya {
+                            top: 60%;
+                            left: -15%;
+                        }
+    
+                        &.amikeo {
+                            bottom: 87%;
+                            right: -13%;
+                        }
+                    }
+    
+                    .project-image-container {
+                        width: 100%;
+                    }
+    
+                    &.sofya {
+                        .project-image {
+                            background-size: 80%;
+                        }
+                    }
+                }
             }
+        }
 
-            &.linkedin {
-                background-color: $light-green;
-            }
-
-            &.malt {
-                background-color: $light-purple;
-            }
-
-            &.instagram {
-                background-color: $light-pink;
+        @media (mobile) {
+            .sofya {
+                .project-image {
+                    border-radius: $border-radius;
+                }
             }
         }
     }

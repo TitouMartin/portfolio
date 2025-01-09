@@ -235,6 +235,34 @@
 
         <Contact />
 
+        <div class="bottom-page-block">
+            <div class="block-title">Liked what you read ? Try and have some more !</div>
+
+            <div class="text-block projects-readmore">
+
+                <NuxtLink to="/amikeo">
+                    <div class="project-container">
+                        <div class="project-image-container">
+                            <div class="project-background amikeo"></div>
+                            <div class="project-image amikeo"></div>
+                        </div>
+                        <div class="big-text amikeo">amikeo</div>
+                    </div>
+                </NuxtLink>
+
+                <NuxtLink to="/coach-abileo">
+                    <div class="project-container">
+                        <div class="project-image-container">
+                            <div class="project-background coach-abileo"></div>
+                            <div class="project-image coach-abileo"></div>
+                        </div>
+                        <div class="big-text coach-abileo sofya-page">Coach <br> Abileo</div>
+                    </div>
+                </NuxtLink>
+
+            </div>
+        </div>
+
     </div>
 
 </template>

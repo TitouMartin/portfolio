@@ -131,6 +131,34 @@
 
         <Contact />
 
+        <div class="bottom-page-block">
+            <div class="block-title">Liked what you read ? Try and have some more !</div>
+
+            <div class="text-block projects-readmore">
+
+                <NuxtLink to="/amikeo">
+                    <div class="project-container">
+                        <div class="project-image-container">
+                            <div class="project-background amikeo"></div>
+                            <div class="project-image amikeo"></div>
+                        </div>
+                        <div class="big-text amikeo">amikeo</div>
+                    </div>
+                </NuxtLink>
+
+                <NuxtLink to="/sofya">
+                    <div class="project-container sofya">
+                        <div class="big-text sofya">sofya</div>
+                        <div class="project-image-container">
+                            <div class="project-background sofya"></div>
+                            <div class="project-image sofya"></div>
+                        </div>
+                    </div>
+                </NuxtLink>
+
+            </div>
+        </div>
+
     </div>
 
 </template>
