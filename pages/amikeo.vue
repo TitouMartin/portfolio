@@ -183,11 +183,11 @@
             description: 'A 10 applications suite dedicated to mentally deficient and autistic users.',
             ogTitle: 'Titouan Martin | Amikeo',
             ogDescription: 'A 10 applications suite dedicated to mentally deficient and autistic users.',
-            ogImage: 'http://localhost:3000/_nuxt/assets/images/socials/amikeo-preview.png',
+            ogImage: 'https://www.titouanmartin.com/images/socials/amikeo-preview.png',
             ogUrl: '[og:url]',
             twitterTitle: 'Titouan Martin | Amikeo',
             twitterDescription: 'A 10 applications suite dedicated to mentally deficient and autistic users.',
-            twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/amikeo-preview-square.png',
+            twitterImage: 'https://www.titouanmartin.com/images/socials/amikeo-preview-square.png',
             twitterCard: 'I am a Paris based Product Designer and Product Manager'
         })
 

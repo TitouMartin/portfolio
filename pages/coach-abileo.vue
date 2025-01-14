@@ -169,11 +169,11 @@
             description: 'An applications dedicated to mentally disabled, autistic workers and their managers.',
             ogTitle: 'Titouan Martin | Coach Abileo',
             ogDescription: 'An applications dedicated to mentally disabled, autistic workers and their managers.',
-            ogImage: 'http://localhost:3000/_nuxt/assets/images/socials/coach-abileo-preview.png',
+            ogImage: 'https://www.titouanmartin.com/images/socials/coach-abileo-preview.png',
             ogUrl: '[og:url]',
             twitterTitle: 'Titouan Martin | Coach Abileo',
             twitterDescription: 'An applications dedicated to mentally disabled, autistic workers and their managers.',
-            twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/coach-abileo-preview-square.png',
+            twitterImage: 'https://www.titouanmartin.com/images/socials/coach-abileo-preview-square.png',
             twitterCard: 'I am a Paris based Product Designer and Product Manager'
         })
 

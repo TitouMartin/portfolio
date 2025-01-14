@@ -273,11 +273,11 @@
             description: 'A SaaS tool dedicated to help build better real estate projects.',
             ogTitle: 'Titouan Martin | Sofya',
             ogDescription: 'A SaaS tool dedicated to help build better real estate projects.',
-            ogImage: 'http://localhost:3000/_nuxt/assets/images/socials/sofya-preview.png',
+            ogImage: 'https://www.titouanmartin.com/images/socials/sofya-preview.png',
             ogUrl: '[og:url]',
             twitterTitle: 'Titouan Martin | Sofya',
             twitterDescription: 'A SaaS tool dedicated to help build better real estate projects.',
-            twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/sofya-preview-square.png',
+            twitterImage: 'https://www.titouanmartin.com/images/socials/sofya-preview-square.png',
             twitterCard: 'I am a Paris based Product Designer and Product Manager'
         })
 

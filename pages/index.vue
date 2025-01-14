@@ -188,11 +188,11 @@
         description: 'Paris based Product Designer and product Manager.',
         ogTitle: 'Titouan Martin',
         ogDescription: 'Paris based Product Designer and product Manager.',
-        ogImage: 'http://localhost:3000/_nuxt/assets/images/socials/landing-preview.png',
+        ogImage: 'https://www.titouanmartin.com/images/socials/landing-preview.png',
         ogUrl: '[og:url]',
         twitterTitle: 'Titouan Martin',
         twitterDescription: 'Paris based Product Designer',
-        twitterImage: 'http://localhost:3000/_nuxt/assets/images/socials/landing-preview-square.png',
+        twitterImage: 'https://www.titouanmartin.com/images/socials/landing-preview-square.png',
         twitterCard: 'I am a Paris based Product Designer and Product Manager'
     })
 
