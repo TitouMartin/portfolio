@@ -12,9 +12,9 @@
             <a href="https://www.malt.fr/profile/titouanmartin1" target="_blank">
                 <div class="social malt">Malt</div>
             </a>
-            <a href="https://www.instagram.com/titouanmartin/" target="_blank">
+            <!-- <a href="https://www.instagram.com/titouanmartin/" target="_blank">
                 <div class="social instagram">Instagram</div>
-            </a>
+            </a> -->
         </div>
     </div>
 </template>

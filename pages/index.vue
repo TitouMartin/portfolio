@@ -114,28 +114,40 @@
             <h1 class="ab-fold-title desktop">
                 <div class="presentation">
                     <div>Hi ! I am</div>
-                    <div>Titouan Martin,</div>
-                    <div>a {{ age }} years old</div>
-                    <div>Paris based</div>
+                    <div>Titouan Martin</div>
+                    <!-- <div>a {{ age }} years old</div>
+                    <div>Paris based</div> -->
+                    <div>and I build</div>
                 </div>
-                <div class="product-designer big-text">
+                <!-- <div class="product-designer big-text">
                     <div>Product</div>
-                    <div class="designer">Designer</div>
+                    <div>Designer</div>
+                </div> -->
+                <div class="product-designer big-text">
+                    <div>great web</div>
+                    <div class="designer">products</div>
                 </div>
             </h1>
 
             <h1 class="ab-fold-title mobile">
-                <div class="text-block">                    
+                <!-- <div class="text-block">                    
                     Hi ! I am Titouan Martin, a {{ age }} years old Paris based
+                </div> -->
+                <div class="text-block">
+                    Hi ! I am Titouan Martin and I build
                 </div>
-                <div class="soap product-designer text1">prod</div>
+                <!-- <div class="soap product-designer text1">prod</div>
                 <div class="soap product-designer text2">uct</div>
                 <div class="soap product-designer text3">desig</div>
-                <div class="soap product-designer text4">ner</div>
+                <div class="soap product-designer text4">ner</div> -->
+                <div class="soap product-designer text3b">Great</div>
+                <div class="soap product-designer">Web</div>
+                <div class="soap product-designer text1">Prod</div>
+            <div class="soap product-designer text2b">ucts</div>
             </h1>
         </div>
         <div class="text-block">
-            <div>I am a <span class="outlined">Product Designer</span> that also dabbles in <span class="outlined">Product Management</span> since {{ workingYears }} years.</div>
+            <div>I am a product expert specialized in <span class="outlined">Product Design</span> and <span class="outlined">Product Management</span> since {{ workingYears }} years.</div>
             <div class="about">I help teams to create and bring to life beautiful, intuitive and accessible digital products.</div>
             <div class="projects">Here are some projects I took a part in :</div>
             
